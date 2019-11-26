@@ -1,0 +1,158 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		start_up_screen
+	 *	@date 		0
+	 *	@title 		Start-up Screen
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.2.9.xd
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/onboarding_2" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="640dp" >
+
+
+
+
+
+
+
+			<RelativeLayout android:id="@+id/page_onboarding_2_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View android:id="@+id/_bg__onboarding_2_ek2"
+					android:background="@drawable/_bg__onboarding_2_ek2_shape"
+					 android:layout_marginLeft="0dp"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="360dp"
+					android:layout_height="640dp" />
+
+
+				<RelativeLayout android:id="@+id/title_ek1"
+					android:layout_marginTop="55dp"
+					android:layout_marginStart="23dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<TextView android:id="@+id/groups"
+						android:fontFamily="Georgia"
+						android:layout_gravity="center_horizontal|center"
+						android:gravity="center"
+						android:textSize="40sp"
+						android:textColor="@color/create_an_account_ek1_color"
+						android:layout_marginLeft="86dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="135dp"
+						android:layout_height="54dp"
+						android:text="@string/groups_string"
+						 />
+
+					<TextView android:id="@+id/find_all_of_your_groups__you_can_also_join_other_groups_and_create_your_own_groups_under_this_tab_"
+						android:fontFamily="Arial"
+						android:layout_gravity="center_horizontal|center"
+						android:gravity="center"
+						android:textSize="14sp"
+						android:textColor="@color/create_an_account_ek1_color"
+						android:layout_marginLeft="0dp"
+						android:layout_marginTop="64dp"
+						android:layout_width="315dp"
+						android:layout_height="43dp"
+						android:text="@string/find_all_of_your_groups__you_can_also_join_other_groups_and_create_your_own_groups_under_this_tab__string"
+						 />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/bitmap_ek3"
+					android:layout_marginTop="199dp"
+					android:layout_marginStart="85dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<ImageView android:id="@+id/bitmap_ek4"
+						android:src="@drawable/bitmap_ek4"
+						android:contentDescription="bitmap_ek4"
+						 android:layout_marginLeft="0dp"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="191dp"
+						android:layout_height="191dp" />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/pagination_ek1"
+					android:layout_marginTop="514dp"
+					android:layout_marginStart="153dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View android:id="@+id/ellipse_8_ek1"
+						android:background="@drawable/ellipse_8_ek1_shape"
+						 android:layout_marginLeft="0dp"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="6dp"
+						android:layout_height="6dp" />
+
+					<View android:id="@+id/ellipse_9_ek1"
+						android:background="@drawable/ellipse_9_ek1_shape"
+						 android:layout_marginLeft="16dp"
+						 android:layout_marginStart="16dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="6dp"
+						android:layout_height="6dp" />
+
+					<View android:id="@+id/ellipse_10_ek1"
+						android:background="@drawable/ellipse_10_ek1_shape"
+						 android:layout_marginLeft="32dp"
+						 android:layout_marginStart="32dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="6dp"
+						android:layout_height="6dp" />
+
+					<View android:id="@+id/ellipse_11_ek1"
+						android:background="@drawable/ellipse_11_ek1_shape"
+						 android:layout_marginLeft="48dp"
+						 android:layout_marginStart="48dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="6dp"
+						android:layout_height="6dp" />
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

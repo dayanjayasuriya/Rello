@@ -1,0 +1,193 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		start_up_screen
+	 *	@date 		0
+	 *	@title 		Start-up Screen
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.2.9.xd
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/start" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="640dp" >
+
+
+
+
+
+
+
+
+
+			<RelativeLayout android:id="@+id/page_start_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View android:id="@+id/_bg__start_ek2"
+					android:background="@drawable/_bg__start_ek2_shape"
+					 android:layout_marginLeft="0dp"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="360dp"
+					android:layout_height="640dp" />
+
+				<View android:id="@+id/rectangle_1468_ek1"
+					android:background="@drawable/rectangle_1468_ek1_shape"
+					 android:layout_marginLeft="0dp"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="358dp"
+					android:layout_height="193dp" />
+
+				<TextView android:id="@+id/rello_ek3"
+					android:fontFamily="Segoe UI"
+					android:textSize="97sp"
+					android:shadowRadius="2"
+					android:shadowColor="#000000"
+					android:shadowDx="0"
+					android:shadowDy="3"
+					android:textColor="@color/rello_color"
+					android:layout_marginLeft="76dp"
+					android:layout_marginTop="34dp"
+					android:layout_width="213dp"
+					android:layout_height="146dp"
+					android:text="@string/rello_ek3_string"
+					 />
+
+				<TextView android:id="@+id/excellent_"
+					android:fontFamily="Segoe UI"
+					android:textSize="44sp"
+					android:textColor="@color/create_an_account_ek1_color"
+					android:layout_marginLeft="90dp"
+					android:layout_marginTop="225dp"
+					android:layout_width="185dp"
+					android:layout_height="65dp"
+					android:text="@string/excellent__string"
+					 />
+
+				<TextView android:id="@+id/you_re_now_ready_to_create__your_first_group_"
+					android:fontFamily="Segoe UI"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="24sp"
+					android:textColor="@color/create_an_account_ek1_color"
+					android:layout_marginLeft="33dp"
+					android:layout_marginTop="289dp"
+					android:layout_width="291dp"
+					android:layout_height="67dp"
+					android:text="@string/you_re_now_ready_to_create__your_first_group__string"
+					 />
+
+
+				<RelativeLayout android:id="@+id/rectangle"
+					android:layout_marginTop="411dp"
+					android:layout_marginStart="41dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View android:id="@+id/rectangle_ek1"
+						android:background="@drawable/rectangle_ek1_shape"
+						 android:alpha="0.69222003221512"
+						 android:layout_marginLeft="0dp"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="280dp"
+						android:layout_height="38dp" />
+
+				</RelativeLayout>
+
+				<TextView android:id="@+id/create_new_group"
+					android:fontFamily="Segoe UI"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="24sp"
+					android:shadowRadius="2"
+					android:shadowColor="#000000"
+					android:shadowDx="0"
+					android:shadowDy="3"
+					android:textColor="@color/continue_ek1_color"
+					android:layout_marginLeft="81dp"
+					android:layout_marginTop="411dp"
+					android:layout_width="195dp"
+					android:layout_height="37dp"
+					android:text="@string/create_new_group_string"
+					 />
+
+				<TextView android:id="@+id/or_ek1"
+					android:fontFamily="Segoe UI"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="24sp"
+					android:textColor="@color/create_an_account_ek1_color"
+					android:layout_marginLeft="161dp"
+					android:layout_marginTop="463dp"
+					android:layout_width="35dp"
+					android:layout_height="35dp"
+					android:text="@string/or_ek1_string"
+					 />
+
+
+				<RelativeLayout android:id="@+id/rectangle_ek2"
+					android:layout_marginTop="509dp"
+					android:layout_marginStart="41dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View android:id="@+id/rectangle_ek3"
+						android:background="@drawable/rectangle_ek3_shape"
+						 android:alpha="0.69222003221512"
+						 android:layout_marginLeft="0dp"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="280dp"
+						android:layout_height="38dp" />
+
+				</RelativeLayout>
+
+				<TextView android:id="@+id/join_existing_group"
+					android:fontFamily="Segoe UI"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="24sp"
+					android:shadowRadius="2"
+					android:shadowColor="#000000"
+					android:shadowDx="0"
+					android:shadowDy="3"
+					android:textColor="@color/continue_ek1_color"
+					android:layout_marginLeft="76dp"
+					android:layout_marginTop="508dp"
+					android:layout_width="205dp"
+					android:layout_height="37dp"
+					android:text="@string/join_existing_group_string"
+					 />
+
+			</RelativeLayout>
+
+
+
+
+
+
+
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

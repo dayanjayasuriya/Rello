@@ -1,0 +1,1144 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		start_up_screen
+	 *	@date 		0
+	 *	@title 		Start-up Screen
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.2.9.xd
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/calendar" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="640dp" >
+
+
+
+
+
+
+
+
+
+
+
+			<RelativeLayout android:id="@+id/page_calendar_ek2"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View android:id="@+id/_bg__calendar_ek3"
+					android:background="@drawable/_bg__calendar_ek3_shape"
+					 android:layout_marginLeft="0dp"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="360dp"
+					android:layout_height="640dp" />
+
+
+				<RelativeLayout android:id="@+id/month_copy_2"
+					android:layout_marginTop="391dp"
+					android:layout_marginStart="1dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+
+					<RelativeLayout android:id="@+id/row"
+						android:layout_marginTop="317dp"
+						android:layout_marginStart="25dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						>
+
+						<TextView android:id="@+id/_29"
+							android:fontFamily="SFProText-Regular"
+							android:textSize="16sp"
+							android:textColor="@color/desert_rebels_color"
+							android:layout_marginLeft="0dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="22dp"
+							android:layout_height="24dp"
+							android:text="@string/_29_string"
+							 />
+
+						<TextView android:id="@+id/_30"
+							android:fontFamily="SFProText-Regular"
+							android:textSize="16sp"
+							android:textColor="@color/desert_rebels_color"
+							android:layout_marginLeft="48dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="22dp"
+							android:layout_height="24dp"
+							android:text="@string/_30_string"
+							 />
+
+						<TextView android:id="@+id/_31"
+							android:fontFamily="SFProText-Regular"
+							android:textSize="16sp"
+							android:textColor="@color/desert_rebels_color"
+							android:layout_marginLeft="98dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="22dp"
+							android:layout_height="24dp"
+							android:text="@string/_31_string"
+							 />
+
+					</RelativeLayout>
+
+
+					<RelativeLayout android:id="@+id/_24"
+						android:layout_marginTop="248dp"
+						android:layout_marginStart="266dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						>
+
+						<TextView android:id="@+id/_24_ek1"
+							android:fontFamily="SFProText-Regular"
+							android:textSize="17sp"
+							android:textColor="@color/desert_rebels_color"
+							android:layout_marginLeft="0dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="23dp"
+							android:layout_height="25dp"
+							android:text="@string/_24_ek1_string"
+							 />
+
+					</RelativeLayout>
+
+					<TextView android:id="@+id/_22"
+						android:fontFamily="SFProText-Regular"
+						android:textSize="16sp"
+						android:textColor="@color/desert_rebels_color"
+						android:layout_marginLeft="171dp"
+						android:layout_marginTop="248dp"
+						android:layout_width="22dp"
+						android:layout_height="24dp"
+						android:text="@string/_22_string"
+						 />
+
+					<TextView android:id="@+id/_23"
+						android:fontFamily="SFProText-Regular"
+						android:textSize="16sp"
+						android:textColor="@color/desert_rebels_color"
+						android:layout_marginLeft="220dp"
+						android:layout_marginTop="248dp"
+						android:layout_width="22dp"
+						android:layout_height="24dp"
+						android:text="@string/_23_string"
+						 />
+
+					<TextView android:id="@+id/_25"
+						android:fontFamily="SFProText-Regular"
+						android:textSize="16sp"
+						android:textColor="@color/desert_rebels_color"
+						android:layout_marginLeft="317dp"
+						android:layout_marginTop="248dp"
+						android:layout_width="22dp"
+						android:layout_height="24dp"
+						android:text="@string/_25_string"
+						 />
+
+					<ImageView android:id="@+id/line"
+						android:src="@drawable/line"
+						android:contentDescription="line"
+						 android:layout_marginLeft="0dp"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="236dp"
+						android:layout_width="359.5dp"
+						android:layout_height="0.5dp" />
+
+					<TextView android:id="@+id/_15"
+						android:fontFamily="SFProText-Regular"
+						android:textSize="16sp"
+						android:textColor="@color/desert_rebels_color"
+						android:layout_marginLeft="171dp"
+						android:layout_marginTop="177dp"
+						android:layout_width="22dp"
+						android:layout_height="24dp"
+						android:text="@string/_15_string"
+						 />
+
+					<TextView android:id="@+id/_16"
+						android:fontFamily="SFProText-Regular"
+						android:textSize="16sp"
+						android:textColor="@color/desert_rebels_color"
+						android:layout_marginLeft="220dp"
+						android:layout_marginTop="177dp"
+						android:layout_width="22dp"
+						android:layout_height="24dp"
+						android:text="@string/_16_string"
+						 />
+
+					<TextView android:id="@+id/_17"
+						android:fontFamily="SFProText-Regular"
+						android:textSize="16sp"
+						android:textColor="@color/desert_rebels_color"
+						android:layout_marginLeft="268dp"
+						android:layout_marginTop="177dp"
+						android:layout_width="22dp"
+						android:layout_height="24dp"
+						android:text="@string/_17_string"
+						 />
+
+					<TextView android:id="@+id/_18"
+						android:fontFamily="SFProText-Regular"
+						android:textSize="16sp"
+						android:textColor="@color/desert_rebels_color"
+						android:layout_marginLeft="318dp"
+						android:layout_marginTop="177dp"
+						android:layout_width="22dp"
+						android:layout_height="24dp"
+						android:text="@string/_18_string"
+						 />
+
+					<TextView android:id="@+id/_19"
+						android:fontFamily="SFProText-Regular"
+						android:textSize="16sp"
+						android:textColor="@color/desert_rebels_color"
+						android:layout_marginLeft="24dp"
+						android:layout_marginTop="247dp"
+						android:layout_width="22dp"
+						android:layout_height="24dp"
+						android:text="@string/_19_string"
+						 />
+
+					<TextView android:id="@+id/_20"
+						android:fontFamily="SFProText-Regular"
+						android:textSize="16sp"
+						android:textColor="@color/desert_rebels_color"
+						android:layout_marginLeft="72dp"
+						android:layout_marginTop="247dp"
+						android:layout_width="22dp"
+						android:layout_height="24dp"
+						android:text="@string/_20_string"
+						 />
+
+					<TextView android:id="@+id/_21"
+						android:fontFamily="SFProText-Regular"
+						android:textSize="16sp"
+						android:textColor="@color/desert_rebels_color"
+						android:layout_marginLeft="122dp"
+						android:layout_marginTop="247dp"
+						android:layout_width="22dp"
+						android:layout_height="24dp"
+						android:text="@string/_21_string"
+						 />
+
+					<ImageView android:id="@+id/line_ek1"
+						android:src="@drawable/line_ek1"
+						android:contentDescription="line_ek1"
+						 android:layout_marginLeft="0dp"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="166dp"
+						android:layout_width="359.5dp"
+						android:layout_height="0.5dp" />
+
+					<TextView android:id="@+id/_8"
+						android:fontFamily="SFProText-Regular"
+						android:textSize="15sp"
+						android:textColor="@color/desert_rebels_color"
+						android:layout_marginLeft="174dp"
+						android:layout_marginTop="107dp"
+						android:layout_width="13dp"
+						android:layout_height="23dp"
+						android:text="@string/_8_string"
+						 />
+
+					<TextView android:id="@+id/_9"
+						android:fontFamily="SFProText-Regular"
+						android:textSize="15sp"
+						android:textColor="@color/desert_rebels_color"
+						android:layout_marginLeft="223dp"
+						android:layout_marginTop="107dp"
+						android:layout_width="13dp"
+						android:layout_height="23dp"
+						android:text="@string/_9_string"
+						 />
+
+					<TextView android:id="@+id/_10"
+						android:fontFamily="SFProText-Regular"
+						android:textSize="16sp"
+						android:textColor="@color/desert_rebels_color"
+						android:layout_marginLeft="268dp"
+						android:layout_marginTop="107dp"
+						android:layout_width="22dp"
+						android:layout_height="24dp"
+						android:text="@string/_10_string"
+						 />
+
+					<TextView android:id="@+id/_11"
+						android:fontFamily="SFProText-Regular"
+						android:textSize="16sp"
+						android:textColor="@color/desert_rebels_color"
+						android:layout_marginLeft="319dp"
+						android:layout_marginTop="107dp"
+						android:layout_width="22dp"
+						android:layout_height="24dp"
+						android:text="@string/_11_string"
+						 />
+
+					<TextView android:id="@+id/_12"
+						android:fontFamily="SFProText-Regular"
+						android:textSize="16sp"
+						android:textColor="@color/desert_rebels_color"
+						android:layout_marginLeft="25dp"
+						android:layout_marginTop="177dp"
+						android:layout_width="22dp"
+						android:layout_height="24dp"
+						android:text="@string/_12_string"
+						 />
+
+					<TextView android:id="@+id/_13"
+						android:fontFamily="SFProText-Regular"
+						android:textSize="16sp"
+						android:textColor="@color/desert_rebels_color"
+						android:layout_marginLeft="73dp"
+						android:layout_marginTop="177dp"
+						android:layout_width="22dp"
+						android:layout_height="24dp"
+						android:text="@string/_13_string"
+						 />
+
+					<TextView android:id="@+id/_14"
+						android:fontFamily="SFProText-Regular"
+						android:textSize="16sp"
+						android:textColor="@color/desert_rebels_color"
+						android:layout_marginLeft="122dp"
+						android:layout_marginTop="177dp"
+						android:layout_width="22dp"
+						android:layout_height="24dp"
+						android:text="@string/_14_string"
+						 />
+
+					<ImageView android:id="@+id/line_ek2"
+						android:src="@drawable/line_ek2"
+						android:contentDescription="line_ek2"
+						 android:layout_marginLeft="0dp"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="96dp"
+						android:layout_width="359.5dp"
+						android:layout_height="0.5dp" />
+
+					<TextView android:id="@+id/_1"
+						android:fontFamily="SFProText-Regular"
+						android:textSize="15sp"
+						android:textColor="@color/desert_rebels_color"
+						android:layout_marginLeft="176dp"
+						android:layout_marginTop="37dp"
+						android:layout_width="13dp"
+						android:layout_height="23dp"
+						android:text="@string/_1_string"
+						 />
+
+					<TextView android:id="@+id/_5"
+						android:fontFamily="SFProText-Regular"
+						android:textSize="15sp"
+						android:textColor="@color/desert_rebels_color"
+						android:layout_marginLeft="29dp"
+						android:layout_marginTop="107dp"
+						android:layout_width="13dp"
+						android:layout_height="23dp"
+						android:text="@string/_5_string"
+						 />
+
+					<TextView android:id="@+id/_6"
+						android:fontFamily="SFProText-Regular"
+						android:textSize="15sp"
+						android:textColor="@color/desert_rebels_color"
+						android:layout_marginLeft="77dp"
+						android:layout_marginTop="107dp"
+						android:layout_width="13dp"
+						android:layout_height="23dp"
+						android:text="@string/_6_string"
+						 />
+
+					<TextView android:id="@+id/_7"
+						android:fontFamily="SFProText-Regular"
+						android:textSize="15sp"
+						android:textColor="@color/desert_rebels_color"
+						android:layout_marginLeft="127dp"
+						android:layout_marginTop="107dp"
+						android:layout_width="13dp"
+						android:layout_height="23dp"
+						android:text="@string/_7_string"
+						 />
+
+					<TextView android:id="@+id/_2"
+						android:fontFamily="SFProText-Regular"
+						android:textSize="15sp"
+						android:textColor="@color/desert_rebels_color"
+						android:layout_marginLeft="223dp"
+						android:layout_marginTop="37dp"
+						android:layout_width="13dp"
+						android:layout_height="23dp"
+						android:text="@string/_2_string"
+						 />
+
+					<TextView android:id="@+id/_3"
+						android:fontFamily="SFProText-Regular"
+						android:textSize="15sp"
+						android:textColor="@color/desert_rebels_color"
+						android:layout_marginLeft="272dp"
+						android:layout_marginTop="37dp"
+						android:layout_width="13dp"
+						android:layout_height="23dp"
+						android:text="@string/_3_string"
+						 />
+
+					<TextView android:id="@+id/_4"
+						android:fontFamily="SFProText-Regular"
+						android:textSize="15sp"
+						android:textColor="@color/desert_rebels_color"
+						android:layout_marginLeft="322dp"
+						android:layout_marginTop="37dp"
+						android:layout_width="13dp"
+						android:layout_height="23dp"
+						android:text="@string/_4_string"
+						 />
+
+					<ImageView android:id="@+id/line_ek3"
+						android:src="@drawable/line_ek3"
+						android:contentDescription="line_ek3"
+						 android:layout_marginLeft="161dp"
+						 android:layout_marginStart="161dp"
+						android:layout_marginTop="27dp"
+						android:layout_width="198.5dp"
+						android:layout_height="0.5dp" />
+
+					<TextView android:id="@+id/nov"
+						android:fontFamily="SFProDisplay-Bold"
+						android:textSize="19sp"
+						android:textColor="@color/desert_rebels_color"
+						android:layout_marginLeft="169dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="40dp"
+						android:layout_height="30dp"
+						android:text="@string/nov_string"
+						 />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/group_6"
+					android:layout_marginTop="585dp"
+					android:layout_marginStart="0dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View android:id="@+id/rectangle_1470_ek2"
+						android:background="@drawable/rectangle_1470_ek2_shape"
+						 android:layout_marginLeft="0dp"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="6dp"
+						android:layout_width="358dp"
+						android:layout_height="47dp" />
+
+
+					<RelativeLayout android:id="@+id/group_1_ek1"
+						android:layout_marginTop="6dp"
+						android:layout_marginStart="23dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						>
+
+
+						<RelativeLayout android:id="@+id/bitmap_ek22"
+							android:layout_marginTop="0dp"
+							android:layout_marginStart="0dp"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							>
+
+
+							<RelativeLayout android:id="@+id/bitmap_ek23"
+								android:layout_marginTop="0dp"
+								android:layout_marginStart="0dp"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								>
+
+								<ImageView android:id="@+id/bitmap_ek24"
+									android:src="@drawable/bitmap_ek24"
+									android:contentDescription="bitmap_ek24"
+									 android:layout_marginLeft="0dp"
+									 android:layout_marginStart="0dp"
+									android:layout_marginTop="0dp"
+									android:layout_width="48dp"
+									android:layout_height="48dp" />
+
+							</RelativeLayout>
+
+						</RelativeLayout>
+
+					</RelativeLayout>
+
+
+					<RelativeLayout android:id="@+id/bitmap_ek25"
+						android:layout_marginTop="12dp"
+						android:layout_marginStart="123dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						>
+
+						<ImageView android:id="@+id/bitmap_ek26"
+							android:src="@drawable/bitmap_ek26"
+							android:contentDescription="bitmap_ek26"
+							 android:layout_marginLeft="0dp"
+							 android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="37dp"
+							android:layout_height="37dp" />
+
+					</RelativeLayout>
+
+
+					<RelativeLayout android:id="@+id/bitmap_copy_4_ek6"
+						android:layout_marginTop="0dp"
+						android:layout_marginStart="215dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						>
+
+						<ImageView android:id="@+id/bitmap_copy_4_ek7"
+							android:src="@drawable/bitmap_copy_4_ek7"
+							android:contentDescription="bitmap_copy_4_ek7"
+							 android:layout_marginLeft="0dp"
+							 android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="51dp"
+							android:layout_height="51dp" />
+
+					</RelativeLayout>
+
+
+					<RelativeLayout android:id="@+id/bitmap_ek27"
+						android:layout_marginTop="12dp"
+						android:layout_marginStart="302dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						>
+
+						<ImageView android:id="@+id/bitmap_ek28"
+							android:src="@drawable/bitmap_ek28"
+							android:contentDescription="bitmap_ek28"
+							 android:layout_marginLeft="0dp"
+							 android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="31.292724609375dp"
+							android:layout_height="35.21435546875dp" />
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+				<ImageView android:id="@+id/line_4_ek1"
+					android:src="@drawable/line_4_ek1"
+					android:contentDescription="line_4_ek1"
+					 android:layout_marginLeft="0dp"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="65dp"
+					android:layout_width="363dp"
+					android:layout_height="3dp" />
+
+
+				<RelativeLayout android:id="@+id/group_7"
+					android:layout_marginTop="20dp"
+					android:layout_marginStart="26dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+
+					<RelativeLayout android:id="@+id/bitmap_ek29"
+						android:layout_marginTop="0dp"
+						android:layout_marginStart="0dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						>
+
+						<ImageView android:id="@+id/bitmap_ek30"
+							android:src="@drawable/bitmap_ek30"
+							android:contentDescription="bitmap_ek30"
+							 android:layout_marginLeft="0dp"
+							 android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="26.301940917969dp"
+							android:layout_height="29.59814453125dp" />
+
+					</RelativeLayout>
+
+					<TextView android:id="@+id/your_scheduled_events"
+						android:fontFamily="Segoe UI"
+						android:layout_gravity="center_horizontal|center"
+						android:gravity="center"
+						android:textSize="19sp"
+						android:shadowRadius="2"
+						android:shadowColor="#002aff"
+						android:shadowDx="0"
+						android:shadowDy="3"
+						android:textColor="@color/desert_rebels_color"
+						android:layout_marginLeft="33dp"
+						android:layout_marginTop="2dp"
+						android:layout_width="205dp"
+						android:layout_height="30dp"
+						android:text="@string/your_scheduled_events_string"
+						 />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/month_copy"
+					android:layout_marginTop="83dp"
+					android:layout_marginStart="1dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+
+					<RelativeLayout android:id="@+id/row_ek1"
+						android:layout_marginTop="288dp"
+						android:layout_marginStart="25dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						>
+
+						<TextView android:id="@+id/_29_ek1"
+							android:fontFamily="SFProText-Regular"
+							android:textSize="15sp"
+							android:textColor="@color/desert_rebels_color"
+							android:layout_marginLeft="0dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="21dp"
+							android:layout_height="23dp"
+							android:text="@string/_29_ek1_string"
+							 />
+
+						<TextView android:id="@+id/_30_ek1"
+							android:fontFamily="SFProText-Regular"
+							android:textSize="15sp"
+							android:textColor="@color/desert_rebels_color"
+							android:layout_marginLeft="48dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="21dp"
+							android:layout_height="23dp"
+							android:text="@string/_30_ek1_string"
+							 />
+
+						<TextView android:id="@+id/_31_ek1"
+							android:fontFamily="SFProText-Regular"
+							android:textSize="15sp"
+							android:textColor="@color/desert_rebels_color"
+							android:layout_marginLeft="98dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="21dp"
+							android:layout_height="23dp"
+							android:text="@string/_31_ek1_string"
+							 />
+
+					</RelativeLayout>
+
+					<ImageView android:id="@+id/line_ek4"
+						android:src="@drawable/line_ek4"
+						android:contentDescription="line_ek4"
+						 android:layout_marginLeft="0dp"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="279dp"
+						android:layout_width="145.5dp"
+						android:layout_height="0.5dp" />
+
+
+					<RelativeLayout android:id="@+id/row_ek2"
+						android:layout_marginTop="219dp"
+						android:layout_marginStart="25dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						>
+
+
+						<RelativeLayout android:id="@+id/_24_ek2"
+							android:layout_marginTop="0dp"
+							android:layout_marginStart="90dp"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							>
+
+							<View android:id="@+id/oval"
+								android:background="@drawable/oval_shape"
+								 android:layout_marginLeft="0dp"
+								 android:layout_marginStart="0dp"
+								android:layout_marginTop="0dp"
+								android:layout_width="34dp"
+								android:layout_height="34dp" />
+
+							<TextView android:id="@+id/_24_ek3"
+								android:fontFamily="SFProText-Medium"
+								android:textSize="17sp"
+								android:textColor="@color/continue_ek1_color"
+								android:layout_marginLeft="7dp"
+								android:layout_marginTop="5dp"
+								android:layout_width="23dp"
+								android:layout_height="25dp"
+								android:text="@string/_24_ek3_string"
+								 />
+
+						</RelativeLayout>
+
+						<TextView android:id="@+id/_22_ek1"
+							android:fontFamily="SFProText-Regular"
+							android:textSize="15sp"
+							android:textColor="@color/desert_rebels_color"
+							android:layout_marginLeft="0dp"
+							android:layout_marginTop="5dp"
+							android:layout_width="21dp"
+							android:layout_height="23dp"
+							android:text="@string/_22_ek1_string"
+							 />
+
+						<TextView android:id="@+id/_23_ek1"
+							android:fontFamily="SFProText-Regular"
+							android:textSize="15sp"
+							android:textColor="@color/desert_rebels_color"
+							android:layout_marginLeft="48dp"
+							android:layout_marginTop="5dp"
+							android:layout_width="21dp"
+							android:layout_height="23dp"
+							android:text="@string/_23_ek1_string"
+							 />
+
+						<TextView android:id="@+id/_25_ek1"
+							android:fontFamily="SFProText-Regular"
+							android:textSize="15sp"
+							android:textColor="@color/desert_rebels_color"
+							android:layout_marginLeft="146dp"
+							android:layout_marginTop="5dp"
+							android:layout_width="21dp"
+							android:layout_height="23dp"
+							android:text="@string/_25_ek1_string"
+							 />
+
+						<TextView android:id="@+id/_26"
+							android:fontFamily="SFProText-Regular"
+							android:textSize="15sp"
+							android:textColor="@color/desert_rebels_color"
+							android:layout_marginLeft="195dp"
+							android:layout_marginTop="5dp"
+							android:layout_width="21dp"
+							android:layout_height="23dp"
+							android:text="@string/_26_string"
+							 />
+
+						<TextView android:id="@+id/_27"
+							android:fontFamily="SFProText-Regular"
+							android:textSize="15sp"
+							android:textColor="@color/desert_rebels_color"
+							android:layout_marginLeft="244dp"
+							android:layout_marginTop="5dp"
+							android:layout_width="21dp"
+							android:layout_height="23dp"
+							android:text="@string/_27_string"
+							 />
+
+						<TextView android:id="@+id/_28"
+							android:fontFamily="SFProText-Regular"
+							android:textSize="15sp"
+							android:textColor="@color/desert_rebels_color"
+							android:layout_marginLeft="293dp"
+							android:layout_marginTop="5dp"
+							android:layout_width="21dp"
+							android:layout_height="23dp"
+							android:text="@string/_28_string"
+							 />
+
+					</RelativeLayout>
+
+					<ImageView android:id="@+id/line_ek5"
+						android:src="@drawable/line_ek5"
+						android:contentDescription="line_ek5"
+						 android:layout_marginLeft="0dp"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="215dp"
+						android:layout_width="359.5dp"
+						android:layout_height="0.5dp" />
+
+
+					<RelativeLayout android:id="@+id/row_ek3"
+						android:layout_marginTop="161dp"
+						android:layout_marginStart="26dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						>
+
+						<TextView android:id="@+id/_15_ek1"
+							android:fontFamily="SFProText-Regular"
+							android:textSize="15sp"
+							android:textColor="@color/desert_rebels_color"
+							android:layout_marginLeft="0dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="21dp"
+							android:layout_height="23dp"
+							android:text="@string/_15_ek1_string"
+							 />
+
+						<TextView android:id="@+id/_16_ek1"
+							android:fontFamily="SFProText-Regular"
+							android:textSize="15sp"
+							android:textColor="@color/desert_rebels_color"
+							android:layout_marginLeft="48dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="21dp"
+							android:layout_height="23dp"
+							android:text="@string/_16_ek1_string"
+							 />
+
+						<TextView android:id="@+id/_17_ek1"
+							android:fontFamily="SFProText-Regular"
+							android:textSize="15sp"
+							android:textColor="@color/desert_rebels_color"
+							android:layout_marginLeft="97dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="21dp"
+							android:layout_height="23dp"
+							android:text="@string/_17_ek1_string"
+							 />
+
+						<TextView android:id="@+id/_18_ek1"
+							android:fontFamily="SFProText-Regular"
+							android:textSize="15sp"
+							android:textColor="@color/desert_rebels_color"
+							android:layout_marginLeft="146dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="21dp"
+							android:layout_height="23dp"
+							android:text="@string/_18_ek1_string"
+							 />
+
+						<TextView android:id="@+id/_19_ek1"
+							android:fontFamily="SFProText-Regular"
+							android:textSize="15sp"
+							android:textColor="@color/desert_rebels_color"
+							android:layout_marginLeft="195dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="21dp"
+							android:layout_height="23dp"
+							android:text="@string/_19_ek1_string"
+							 />
+
+						<TextView android:id="@+id/_20_ek1"
+							android:fontFamily="SFProText-Regular"
+							android:textSize="15sp"
+							android:textColor="@color/desert_rebels_color"
+							android:layout_marginLeft="243dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="21dp"
+							android:layout_height="23dp"
+							android:text="@string/_20_ek1_string"
+							 />
+
+						<TextView android:id="@+id/_21_ek1"
+							android:fontFamily="SFProText-Regular"
+							android:textSize="15sp"
+							android:textColor="@color/desert_rebels_color"
+							android:layout_marginLeft="293dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="21dp"
+							android:layout_height="23dp"
+							android:text="@string/_21_ek1_string"
+							 />
+
+					</RelativeLayout>
+
+					<ImageView android:id="@+id/line_ek6"
+						android:src="@drawable/line_ek6"
+						android:contentDescription="line_ek6"
+						 android:layout_marginLeft="0dp"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="151dp"
+						android:layout_width="359.5dp"
+						android:layout_height="0.5dp" />
+
+
+					<RelativeLayout android:id="@+id/row_ek4"
+						android:layout_marginTop="96dp"
+						android:layout_marginStart="30dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						>
+
+						<TextView android:id="@+id/_8_ek1"
+							android:fontFamily="SFProText-Regular"
+							android:textSize="15sp"
+							android:textColor="@color/desert_rebels_color"
+							android:layout_marginLeft="0dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="13dp"
+							android:layout_height="23dp"
+							android:text="@string/_8_ek1_string"
+							 />
+
+						<TextView android:id="@+id/_9_ek1"
+							android:fontFamily="SFProText-Regular"
+							android:textSize="15sp"
+							android:textColor="@color/desert_rebels_color"
+							android:layout_marginLeft="48dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="13dp"
+							android:layout_height="23dp"
+							android:text="@string/_9_ek1_string"
+							 />
+
+						<TextView android:id="@+id/_10_ek1"
+							android:fontFamily="SFProText-Regular"
+							android:textSize="15sp"
+							android:textColor="@color/desert_rebels_color"
+							android:layout_marginLeft="93dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="21dp"
+							android:layout_height="23dp"
+							android:text="@string/_10_ek1_string"
+							 />
+
+						<TextView android:id="@+id/_11_ek1"
+							android:fontFamily="SFProText-Regular"
+							android:textSize="15sp"
+							android:textColor="@color/desert_rebels_color"
+							android:layout_marginLeft="143dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="21dp"
+							android:layout_height="23dp"
+							android:text="@string/_11_ek1_string"
+							 />
+
+						<TextView android:id="@+id/_12_ek1"
+							android:fontFamily="SFProText-Regular"
+							android:textSize="15sp"
+							android:textColor="@color/desert_rebels_color"
+							android:layout_marginLeft="192dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="21dp"
+							android:layout_height="23dp"
+							android:text="@string/_12_ek1_string"
+							 />
+
+						<TextView android:id="@+id/_13_ek1"
+							android:fontFamily="SFProText-Regular"
+							android:textSize="15sp"
+							android:textColor="@color/desert_rebels_color"
+							android:layout_marginLeft="240dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="21dp"
+							android:layout_height="23dp"
+							android:text="@string/_13_ek1_string"
+							 />
+
+						<TextView android:id="@+id/_14_ek1"
+							android:fontFamily="SFProText-Regular"
+							android:textSize="15sp"
+							android:textColor="@color/desert_rebels_color"
+							android:layout_marginLeft="290dp"
+							android:layout_marginTop="0dp"
+							android:layout_width="21dp"
+							android:layout_height="23dp"
+							android:text="@string/_14_ek1_string"
+							 />
+
+					</RelativeLayout>
+
+					<ImageView android:id="@+id/line_ek7"
+						android:src="@drawable/line_ek7"
+						android:contentDescription="line_ek7"
+						 android:layout_marginLeft="0dp"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="88dp"
+						android:layout_width="359.5dp"
+						android:layout_height="0.5dp" />
+
+
+					<RelativeLayout android:id="@+id/row_ek5"
+						android:layout_marginTop="32dp"
+						android:layout_marginStart="32dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						>
+
+						<TextView android:id="@+id/_1_ek1"
+							android:fontFamily="SFProText-Regular"
+							android:textSize="15sp"
+							android:textColor="@color/desert_rebels_color"
+							android:layout_marginLeft="0dp"
+							android:layout_marginTop="2dp"
+							android:layout_width="13dp"
+							android:layout_height="23dp"
+							android:text="@string/_1_ek1_string"
+							 />
+
+
+						<RelativeLayout android:id="@+id/_5_ek1"
+							android:layout_marginTop="0dp"
+							android:layout_marginStart="192dp"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							>
+
+							<View android:id="@+id/oval_ek1"
+								android:background="@drawable/oval_ek1_shape"
+								 android:layout_marginLeft="1dp"
+								 android:layout_marginStart="1dp"
+								android:layout_marginTop="31dp"
+								android:layout_width="8dp"
+								android:layout_height="8dp" />
+
+							<TextView android:id="@+id/_5_ek2"
+								android:fontFamily="SFProText-Regular"
+								android:textSize="17sp"
+								android:textColor="@color/desert_rebels_color"
+								android:layout_marginLeft="0dp"
+								android:layout_marginTop="0dp"
+								android:layout_width="14dp"
+								android:layout_height="25dp"
+								android:text="@string/_5_ek2_string"
+								 />
+
+						</RelativeLayout>
+
+
+						<RelativeLayout android:id="@+id/_6_ek1"
+							android:layout_marginTop="0dp"
+							android:layout_marginStart="241dp"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							>
+
+							<View android:id="@+id/oval_ek2"
+								android:background="@drawable/oval_ek2_shape"
+								 android:layout_marginLeft="1dp"
+								 android:layout_marginStart="1dp"
+								android:layout_marginTop="31dp"
+								android:layout_width="8dp"
+								android:layout_height="8dp" />
+
+							<TextView android:id="@+id/_6_ek2"
+								android:fontFamily="SFProText-Regular"
+								android:textSize="17sp"
+								android:textColor="@color/desert_rebels_color"
+								android:layout_marginLeft="0dp"
+								android:layout_marginTop="0dp"
+								android:layout_width="14dp"
+								android:layout_height="25dp"
+								android:text="@string/_6_ek2_string"
+								 />
+
+						</RelativeLayout>
+
+
+						<RelativeLayout android:id="@+id/_7_ek1"
+							android:layout_marginTop="0dp"
+							android:layout_marginStart="291dp"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							>
+
+							<View android:id="@+id/oval_ek3"
+								android:background="@drawable/oval_ek3_shape"
+								 android:layout_marginLeft="1dp"
+								 android:layout_marginStart="1dp"
+								android:layout_marginTop="31dp"
+								android:layout_width="8dp"
+								android:layout_height="8dp" />
+
+							<TextView android:id="@+id/_7_ek2"
+								android:fontFamily="SFProText-Regular"
+								android:textSize="17sp"
+								android:textColor="@color/desert_rebels_color"
+								android:layout_marginLeft="0dp"
+								android:layout_marginTop="0dp"
+								android:layout_width="14dp"
+								android:layout_height="25dp"
+								android:text="@string/_7_ek2_string"
+								 />
+
+						</RelativeLayout>
+
+						<TextView android:id="@+id/_2_ek1"
+							android:fontFamily="SFProText-Regular"
+							android:textSize="15sp"
+							android:textColor="@color/desert_rebels_color"
+							android:layout_marginLeft="47dp"
+							android:layout_marginTop="2dp"
+							android:layout_width="13dp"
+							android:layout_height="23dp"
+							android:text="@string/_2_ek1_string"
+							 />
+
+						<TextView android:id="@+id/_3_ek1"
+							android:fontFamily="SFProText-Regular"
+							android:textSize="15sp"
+							android:textColor="@color/desert_rebels_color"
+							android:layout_marginLeft="95dp"
+							android:layout_marginTop="2dp"
+							android:layout_width="13dp"
+							android:layout_height="23dp"
+							android:text="@string/_3_ek1_string"
+							 />
+
+						<TextView android:id="@+id/_4_ek1"
+							android:fontFamily="SFProText-Regular"
+							android:textSize="15sp"
+							android:textColor="@color/desert_rebels_color"
+							android:layout_marginLeft="144dp"
+							android:layout_marginTop="2dp"
+							android:layout_width="13dp"
+							android:layout_height="23dp"
+							android:text="@string/_4_ek1_string"
+							 />
+
+					</RelativeLayout>
+
+					<ImageView android:id="@+id/line_ek8"
+						android:src="@drawable/line_ek8"
+						android:contentDescription="line_ek8"
+						 android:layout_marginLeft="0dp"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="24dp"
+						android:layout_width="359.5dp"
+						android:layout_height="0.5dp" />
+
+					<TextView android:id="@+id/oct"
+						android:fontFamily="SFProDisplay-Bold"
+						android:textSize="17sp"
+						android:textColor="@color/oct_color"
+						android:layout_marginLeft="18dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="32dp"
+						android:layout_height="25dp"
+						android:text="@string/oct_string"
+						 />
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+
+
+
+
+
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

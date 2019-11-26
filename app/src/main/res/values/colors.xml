@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- start_up_screen colors -->
+
+	<color name="colorPrimary">#008577</color>
+	<color name="colorPrimaryDark">#00574B</color>
+	<color name="colorAccent">#D81B60</color>
+
+	<color name="_bg__start_up_screen_ek2_color">#ffffff</color>
+	<color name="rello_color">#f8f8f8</color>
+	<color name="rectangle_1_color">#009fbb</color>
+	<color name="rectangle_119_color">#5e76e2</color>
+	<color name="continue_ek1_color">#ffffff</color>
+	<color name="full_name_color">#bce0fd</color>
+	<color name="create_an_account_ek1_color">#5d73e3</color>
+	<color name="by_creating_an_account_you_agree_to_our_terms_of_service_and_privacy_policy_color">#5e75e2</color>
+	<color name="rectangle_68_color">#f7f7f7</color>
+	<color name="_09_09_1987_color">#2699fb</color>
+	<color name="personal_information_ek1_color">#5e76e2</color>
+	<color name="_497_evergreen_rd__color">#7f7f7f</color>
+	<color name="street_color">#b4b4b4</color>
+	<color name="rectangle_1468_color">#5d73e3</color>
+	<color name="ellipse_8_color">#2699fb</color>
+	<color name="ellipse_9_color">#bce0fd</color>
+	<color name="rectangle_ek1_color">#1946c5</color>
+	<color name="ellipse_133_color">#f1f9ff</color>
+	<color name="rectangle_549_color">#7f7f7f</color>
+	<color name="rectangle_ek5_color">#ff6161</color>
+	<color name="mask_color">#d8d8d8</color>
+	<color name="desert_rebels_color">#000000</color>
+	<color name="rectangle_ek15_color">#827c6f</color>
+	<color name="oval_color">#ff3b30</color>
+	<color name="oval_ek1_color">#c7c7cc</color>
+	<color name="oct_color">#ff3b30</color>
+	<color name="john_doe_color">#f5f5f5</color>
+	<color name="rectangle_1473_color">#ff7c7c</color>
+	<color name="rectangle_1472_color">#a8a49b</color>
+	<color name="rectangle_1473_ek11_color">#fffb7c</color>
+	<color name="rectangle_1474_color">#8597f2</color>
+	<color name="rectangle_1475_color">#c3c9e8</color>
+</resources>

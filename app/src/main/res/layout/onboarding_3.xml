@@ -1,0 +1,157 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		start_up_screen
+	 *	@date 		0
+	 *	@title 		Start-up Screen
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.2.9.xd
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/onboarding_3" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="640dp" >
+
+
+
+
+
+
+
+			<RelativeLayout android:id="@+id/page_onboarding_3_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View android:id="@+id/_bg__onboarding_3_ek2"
+					android:background="@drawable/_bg__onboarding_3_ek2_shape"
+					 android:layout_marginLeft="0dp"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="360dp"
+					android:layout_height="640dp" />
+
+
+				<RelativeLayout android:id="@+id/title_ek2"
+					android:layout_marginTop="55dp"
+					android:layout_marginStart="23dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<TextView android:id="@+id/chat"
+						android:fontFamily="Georgia"
+						android:layout_gravity="center_horizontal|center"
+						android:gravity="center"
+						android:textSize="40sp"
+						android:textColor="@color/create_an_account_ek1_color"
+						android:layout_marginLeft="110dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="87dp"
+						android:layout_height="54dp"
+						android:text="@string/chat_string"
+						 />
+
+					<TextView android:id="@+id/chat_with_those_in_your_group_"
+						android:fontFamily="Arial"
+						android:layout_gravity="center_horizontal|center"
+						android:gravity="center"
+						android:textSize="14sp"
+						android:textColor="@color/create_an_account_ek1_color"
+						android:layout_marginLeft="0dp"
+						android:layout_marginTop="64dp"
+						android:layout_width="315dp"
+						android:layout_height="43dp"
+						android:text="@string/chat_with_those_in_your_group__string"
+						 />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/pagination_ek2"
+					android:layout_marginTop="514dp"
+					android:layout_marginStart="153dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<ImageView android:id="@+id/path_52"
+						android:src="@drawable/path_52"
+						android:contentDescription="path_52"
+						 android:layout_marginLeft="0dp"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="6dp"
+						android:layout_height="6dp" />
+
+					<View android:id="@+id/ellipse_9_ek2"
+						android:background="@drawable/ellipse_9_ek2_shape"
+						 android:layout_marginLeft="16dp"
+						 android:layout_marginStart="16dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="6dp"
+						android:layout_height="6dp" />
+
+					<View android:id="@+id/ellipse_10_ek2"
+						android:background="@drawable/ellipse_10_ek2_shape"
+						 android:layout_marginLeft="32dp"
+						 android:layout_marginStart="32dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="6dp"
+						android:layout_height="6dp" />
+
+					<View android:id="@+id/ellipse_11_ek2"
+						android:background="@drawable/ellipse_11_ek2_shape"
+						 android:layout_marginLeft="48dp"
+						 android:layout_marginStart="48dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="6dp"
+						android:layout_height="6dp" />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/bitmap_copy_4"
+					android:layout_marginTop="160dp"
+					android:layout_marginStart="74dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<ImageView android:id="@+id/bitmap_copy_4_ek1"
+						android:src="@drawable/bitmap_copy_4_ek1"
+						android:contentDescription="bitmap_copy_4_ek1"
+						 android:layout_marginLeft="0dp"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="214dp"
+						android:layout_height="214dp" />
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+
+
+
+
+
+
+
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>
