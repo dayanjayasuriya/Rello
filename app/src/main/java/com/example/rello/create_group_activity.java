@@ -13,9 +13,8 @@
 	 *	@generator 	Export Kit v1.2.9.xd
 	 *
 	 */
-	
 
-package exportkit.xd;
+	package com.example.rello;
 
 import android.app.Activity;
 import android.os.Bundle;

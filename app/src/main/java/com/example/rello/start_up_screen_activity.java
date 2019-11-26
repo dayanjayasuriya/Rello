@@ -15,7 +15,7 @@
 	 */
 	
 
-package exportkit.xd;
+package com.example.rello;
 
 import android.app.Activity;
 import android.os.Bundle;

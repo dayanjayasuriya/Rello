@@ -10,6 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity"></activity>
+        <activity android:name=".onboarding_1_activity"/>
+        <activity android:name=".calendar_activity" />
+        <activity android:name=".create_group_activity" />
+        <activity android:name=".event_messages_activity" />
+        <activity android:name=".events_activity" />
+        <activity android:name=".g_messages_activity" />
+        <activity android:name=".group_messages_activity" />
+        <activity android:name=".groups_activity" />
+        <activity android:name=".homepage_activity" />
+        <activity android:name=".log_in_activity" />
+        <activity android:name=".m_messages_activity" />
+        <activity android:name=".onboarding_2_activity" />
+        <activity android:name=".onboarding_3_activity" />
+        <activity android:name=".onboarding_4_activity" />
+        <activity android:name=".settings_activity" />
+        <activity android:name=".sign_up_1_activity" />
+        <activity android:name=".sign_up_2_activity" />
+        <activity android:name=".splash_activity" />
+        <activity android:name=".start_activity" />
+        <activity android:name=".start_up_screen_activity" />
+
     </application>
 
 </manifest>
