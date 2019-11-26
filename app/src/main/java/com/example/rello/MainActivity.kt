@@ -1,5 +1,6 @@
 package com.example.rello
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.google.firebase.auth.FirebaseAuth
@@ -26,6 +27,7 @@ class MainActivity : AppCompatActivity() {
     private fun updateUI(user: FirebaseUser?) {
         if (user != null) {
             // Signed in
+            Intent myIntent
             setContentView(R.layout.homepage)
         } else {
             // Signed out
