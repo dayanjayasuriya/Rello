@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1079073955295",
+    "firebase_url": "https://rello-c3066.firebaseio.com",
+    "project_id": "rello-c3066",
+    "storage_bucket": "rello-c3066.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079073955295:android:9be698e44570dcb626386a",
+        "android_client_info": {
+          "package_name": "com.example.rello"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079073955295-rvjc7cqcrbt63m23mr4k35b30tteji55.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rello",
+            "certificate_hash": "c5c4b90aef1a0e5ef2b5f6899fade260fbf54ef0"
+          }
+        },
+        {
+          "client_id": "1079073955295-drlg0noavndbmimipdvc59drlt5pnsim.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFlbtjunzcNfnsicuE8Z_qMtsHxVn2awU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079073955295-drlg0noavndbmimipdvc59drlt5pnsim.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
