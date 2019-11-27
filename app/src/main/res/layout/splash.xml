@@ -72,7 +72,7 @@
 					android:layout_width="358dp"
 					android:layout_height="40dp" />
 
-				<TextView android:id="@+id/create_an_account"
+				<Button android:id="@+id/create_an_account"
 					android:fontFamily="Segoe UI"
 					android:layout_gravity="center_horizontal|center"
 					android:gravity="center"
@@ -97,7 +97,7 @@
 					android:layout_width="358dp"
 					android:layout_height="33dp" />
 
-				<TextView android:id="@+id/have_an_account_already__log_in"
+				<Button android:id="@+id/have_an_account_already__log_in"
 					android:fontFamily="Segoe UI"
 					android:layout_gravity="center_horizontal|center"
 					android:gravity="center"

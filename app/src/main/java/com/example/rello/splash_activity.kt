@@ -16,10 +16,12 @@
 package com.example.rello
 
 import android.app.Activity
+import android.content.Intent
 import android.os.Bundle
 
 
 import android.view.View
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 
@@ -30,9 +32,9 @@ class splash_activity : Activity() {
     private var bitmap: ImageView? = null
     private var rello: TextView? = null
     private var rectangle_1: View? = null
-    private var create_an_account: TextView? = null
+    private var create_an_account: Button? = null
     private var rectangle_2: View? = null
-    private var have_an_account_already__log_in: TextView? = null
+    private var have_an_account_already__log_in: Button? = null
 
     public override fun onCreate(savedInstanceState: Bundle?) {
 
@@ -44,15 +46,21 @@ class splash_activity : Activity() {
         bitmap = findViewById<View>(R.id.bitmap) as ImageView
         rello = findViewById<View>(R.id.rello) as TextView
         rectangle_1 = findViewById(R.id.rectangle_1) as View
-        create_an_account = findViewById<View>(R.id.create_an_account) as TextView
+        create_an_account = findViewById<View>(R.id.create_an_account) as Button
+        create_an_account!!.setOnClickListener {
+            val signUpIntent = Intent(this, sign_up_1_activity::class.java)
+            startActivity(signUpIntent)
+        }
         rectangle_2 = findViewById(R.id.rectangle_2) as View
         have_an_account_already__log_in =
-            findViewById<View>(R.id.have_an_account_already__log_in) as TextView
+            findViewById(R.id.have_an_account_already__log_in) as Button
 
-
-        //custom code goes here
-
+        have_an_account_already__log_in!!.setOnClickListener {
+            val loginIntent = Intent(this, log_in_activity::class.java)
+            startActivity(loginIntent)
+        }
     }
+
 }
 	
 	

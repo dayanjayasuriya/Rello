@@ -31,8 +31,8 @@ class MainActivity : AppCompatActivity() {
             startActivity(homeIntent)
         } else {
             // Signed out
-            val signInIntent = Intent(this, sign_up_1_activity::class.java)
-            startActivity(signInIntent)
+            val splashIntent = Intent(this, splash_activity::class.java)
+            startActivity(splashIntent)
         }
     }
 }
