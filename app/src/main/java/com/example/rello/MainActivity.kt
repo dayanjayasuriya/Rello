@@ -27,11 +27,12 @@ class MainActivity : AppCompatActivity() {
     private fun updateUI(user: FirebaseUser?) {
         if (user != null) {
             // Signed in
-            Intent myIntent
-            setContentView(R.layout.homepage)
+            val homeIntent = Intent(this, homepage_activity::class.java)
+            startActivity(homeIntent)
         } else {
             // Signed out
-            setContentView(R.layout.sign_up_1)
+            val signInIntent = Intent(this, sign_up_1_activity::class.java)
+            startActivity(signInIntent)
         }
     }
 }
