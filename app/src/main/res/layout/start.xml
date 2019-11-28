@@ -36,7 +36,7 @@
 				android:layout_marginStart="0dp"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
-				>
+                android:layout_marginLeft="0dp">
 
 				<View android:id="@+id/_bg__start_ek2"
 					android:background="@drawable/_bg__start_ek2_shape"
@@ -98,7 +98,7 @@
 					android:layout_marginStart="41dp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					>
+                    android:layout_marginLeft="41dp">
 
 					<View android:id="@+id/rectangle_ek1"
 						android:background="@drawable/rectangle_ek1_shape"
@@ -147,7 +147,7 @@
 					android:layout_marginStart="41dp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					>
+                    android:layout_marginLeft="41dp">
 
 					<View android:id="@+id/rectangle_ek3"
 						android:background="@drawable/rectangle_ek3_shape"
