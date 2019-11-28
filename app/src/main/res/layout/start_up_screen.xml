@@ -1,4 +1,5 @@
 <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
 	xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent" android:layout_height="wrap_content" >
 	<!-- 
@@ -40,28 +41,14 @@
 					android:layout_marginStart="0dp"
 					android:layout_marginLeft="0dp"
 					android:layout_marginTop="0dp"
-					android:background="@drawable/_bg__start_up_screen_ek2_shape" />
+					android:background="@color/colorPrimaryDark" />
 
+				<ImageView
+					android:id="@+id/imageView"
+					android:layout_width="match_parent"
+					android:layout_height="584dp"
+					app:srcCompat="@mipmap/Rello_logo_foreground" />
 
-				<RelativeLayout
-					android:id="@+id/component_1___1"
-					android:layout_width="wrap_content"
-					android:layout_height="wrap_content"
-					android:layout_marginStart="44dp"
-					android:layout_marginTop="164dp"
-					android:layout_marginLeft="44dp">
-
-					<ImageView
-						android:id="@+id/image_1"
-						android:layout_width="273dp"
-						android:layout_height="259dp"
-						android:layout_marginStart="0dp"
-						android:layout_marginLeft="0dp"
-						android:layout_marginTop="0dp"
-						android:contentDescription="image_1"
-						android:src="@drawable/image_1" />
-
-				</RelativeLayout>
 
 			</RelativeLayout>
 
