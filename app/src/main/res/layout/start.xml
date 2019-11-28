@@ -1,4 +1,6 @@
-<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent" android:layout_height="wrap_content" >
 	<!-- 
 	/*
@@ -38,36 +40,23 @@
 				android:layout_height="wrap_content"
                 android:layout_marginLeft="0dp">
 
-				<View android:id="@+id/_bg__start_ek2"
-					android:background="@drawable/_bg__start_ek2_shape"
-					 android:layout_marginLeft="0dp"
-					 android:layout_marginStart="0dp"
-					android:layout_marginTop="0dp"
+				<View
+					android:id="@+id/_bg__start_ek2"
 					android:layout_width="360dp"
-					android:layout_height="640dp" />
-
-				<View android:id="@+id/rectangle_1468_ek1"
-					android:background="@drawable/rectangle_1468_ek1_shape"
-					 android:layout_marginLeft="0dp"
-					 android:layout_marginStart="0dp"
+					android:layout_height="640dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginLeft="0dp"
 					android:layout_marginTop="0dp"
-					android:layout_width="358dp"
-					android:layout_height="193dp" />
+					android:background="#FFC107" />
 
-				<TextView
-					android:id="@+id/rello_ek3"
-					android:layout_width="228dp"
-					android:layout_height="145dp"
-					android:layout_marginLeft="76dp"
-					android:layout_marginTop="34dp"
-					android:fontFamily="Segoe UI"
-					android:shadowColor="#000000"
-					android:shadowDx="0"
-					android:shadowDy="3"
-					android:shadowRadius="2"
-					android:text="@string/rello_ek3_string"
-					android:textColor="@color/rello_color"
-					android:textSize="97sp" />
+				<View
+					android:id="@+id/rectangle_1468_ek1"
+					android:layout_width="match_parent"
+					android:layout_height="194dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginLeft="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@color/colorPrimaryDark" />
 
 				<TextView android:id="@+id/excellent_"
 					android:fontFamily="Segoe UI"
@@ -176,6 +165,24 @@
 					android:layout_height="37dp"
 					android:text="@string/join_existing_group_string"
 					 />
+
+				<ImageView
+					android:id="@+id/imageView3"
+					android:layout_width="110dp"
+					android:layout_height="119dp"
+					android:layout_alignBottom="@+id/rectangle_1468_ek1"
+					android:layout_alignParentStart="true"
+					android:layout_alignParentLeft="true"
+					android:layout_alignParentTop="true"
+					android:layout_alignParentEnd="true"
+					android:layout_alignParentRight="true"
+					android:layout_marginStart="125dp"
+					android:layout_marginLeft="125dp"
+					android:layout_marginTop="40dp"
+					android:layout_marginEnd="125dp"
+					android:layout_marginRight="125dp"
+					android:layout_marginBottom="34dp"
+					app:srcCompat="@mipmap/Rello_logo_round" />
 
 			</RelativeLayout>
 
