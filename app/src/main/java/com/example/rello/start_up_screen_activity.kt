@@ -35,7 +35,7 @@ class start_up_screen_activity : Activity() {
 
 
         _bg__start_up_screen_ek2 = findViewById(R.id._bg__start_up_screen_ek2) as View
-        image_1 = findViewById<View>(R.id.image_1) as ImageView
+        image_1 = findViewById<View>(R.id.images__1_) as ImageView
 
 
         //custom code goes here

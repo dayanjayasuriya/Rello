@@ -45,7 +45,7 @@
 					android:background="@color/colorPrimaryDark" />
 
 				<Button
-					android:id="@+id/button2"
+					android:id="@+id/create_an_account"
 					android:layout_width="202dp"
 					android:layout_height="38dp"
 					android:layout_alignTop="@+id/rectangle_1"
@@ -74,7 +74,7 @@
 					android:background="@color/colorPrimaryDark" />
 
 				<Button
-					android:id="@+id/button3"
+					android:id="@+id/sign_in"
 					android:layout_width="203dp"
 					android:layout_height="wrap_content"
 					android:layout_alignTop="@+id/rectangle_2"
@@ -96,7 +96,8 @@
 					android:id="@+id/imageView4"
 					android:layout_width="match_parent"
 					android:layout_height="444dp"
-					app:srcCompat="@mipmap/Rello_logo_foreground" />
+					android:background="@color/colorPrimaryDark"
+					app:srcCompat="@mipmap/rello_logo_foreground" />
 
 			</RelativeLayout>
 

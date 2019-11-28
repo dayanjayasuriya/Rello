@@ -47,7 +47,7 @@
 					android:id="@+id/imageView"
 					android:layout_width="match_parent"
 					android:layout_height="584dp"
-					app:srcCompat="@mipmap/Rello_logo_foreground" />
+					app:srcCompat="@mipmap/rello_logo_foreground" />
 
 
 			</RelativeLayout>

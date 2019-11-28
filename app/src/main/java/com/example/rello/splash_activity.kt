@@ -42,9 +42,6 @@ class splash_activity : Activity() {
         setContentView(R.layout.splash)
 
 
-        _bg__splash_ek2 = findViewById(R.id._bg__splash_ek2) as View
-        bitmap = findViewById<View>(R.id.bitmap) as ImageView
-        rello = findViewById<View>(R.id.rello) as TextView
         rectangle_1 = findViewById(R.id.rectangle_1) as View
         create_an_account = findViewById<View>(R.id.create_an_account) as Button
         create_an_account!!.setOnClickListener {
@@ -53,7 +50,7 @@ class splash_activity : Activity() {
         }
         rectangle_2 = findViewById(R.id.rectangle_2) as View
         have_an_account_already__log_in =
-            findViewById(R.id.have_an_account_already__log_in) as Button
+            findViewById(R.id.sign_in) as Button
 
         have_an_account_already__log_in!!.setOnClickListener {
             val loginIntent = Intent(this, log_in_activity::class.java)
