@@ -1,4 +1,6 @@
-<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent" android:layout_height="wrap_content" >
 	<!-- 
 	/*
@@ -34,13 +36,14 @@
 				android:layout_height="wrap_content"
 				>
 
-				<View android:id="@+id/_bg__onboarding_1_ek2"
-					android:background="@drawable/_bg__onboarding_1_ek2_shape"
-					 android:layout_marginLeft="0dp"
-					 android:layout_marginStart="0dp"
-					android:layout_marginTop="0dp"
+				<View
+					android:id="@+id/_bg__onboarding_1_ek2"
 					android:layout_width="360dp"
-					android:layout_height="640dp" />
+					android:layout_height="640dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginLeft="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@color/colorPrimaryDark" />
 
 
 				<RelativeLayout android:id="@+id/title"
@@ -50,31 +53,31 @@
 					android:layout_height="wrap_content"
 					>
 
-					<TextView android:id="@+id/discover"
-						android:fontFamily="Georgia"
-						android:layout_gravity="center_horizontal|center"
-						android:gravity="center"
-						android:textSize="40sp"
-						android:textColor="@color/create_an_account_ek1_color"
-						android:layout_marginLeft="74dp"
-						android:layout_marginTop="0dp"
+					<TextView
+						android:id="@+id/discover"
 						android:layout_width="159dp"
 						android:layout_height="54dp"
-						android:text="@string/discover_string"
-						 />
-
-					<TextView android:id="@+id/find_local_events_happening_near_you_and_post_your_hosted_events_"
-						android:fontFamily="Arial"
 						android:layout_gravity="center_horizontal|center"
+						android:layout_marginLeft="74dp"
+						android:layout_marginTop="0dp"
+						android:fontFamily="Georgia"
 						android:gravity="center"
-						android:textSize="14sp"
-						android:textColor="@color/create_an_account_ek1_color"
-						android:layout_marginLeft="0dp"
-						android:layout_marginTop="64dp"
+						android:text="@string/discover_string"
+						android:textColor="#FFC107"
+						android:textSize="40sp" />
+
+					<TextView
+						android:id="@+id/find_local_events_happening_near_you_and_post_your_hosted_events_"
 						android:layout_width="315dp"
 						android:layout_height="43dp"
+						android:layout_gravity="center_horizontal|center"
+						android:layout_marginLeft="0dp"
+						android:layout_marginTop="64dp"
+						android:fontFamily="Arial"
+						android:gravity="center"
 						android:text="@string/find_local_events_happening_near_you_and_post_your_hosted_events__string"
-						 />
+						android:textColor="#FFC107"
+						android:textSize="14sp" />
 
 				</RelativeLayout>
 
@@ -128,14 +131,16 @@
 					android:layout_height="wrap_content"
 					>
 
-					<ImageView android:id="@+id/bitmap_ek2"
-						android:src="@drawable/bitmap_ek2"
-						android:contentDescription="bitmap_ek2"
-						 android:layout_marginLeft="0dp"
-						 android:layout_marginStart="0dp"
-						android:layout_marginTop="0dp"
+					<ImageView
+						android:id="@+id/bitmap_ek2"
 						android:layout_width="170dp"
-						android:layout_height="170dp" />
+						android:layout_height="170dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginLeft="0dp"
+						android:layout_marginTop="0dp"
+						android:contentDescription="bitmap_ek2"
+						android:src="@drawable/bitmap_ek2"
+						app:srcCompat="@android:drawable/ic_menu_agenda" />
 
 				</RelativeLayout>
 
