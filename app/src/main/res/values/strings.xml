@@ -240,4 +240,6 @@ Experience the 35 seconds of freefall followed by a peaceful parachue ride backt
 	<string name="privacy_string">Privacy</string>
 	<string name="block_string">Block</string>
 	<string name="help_string">Help</string>
+    <string name="back_sign2">back_sign2</string>
+	<string name="country_region">Country/Region</string>
 </resources>

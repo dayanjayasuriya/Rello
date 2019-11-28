@@ -88,9 +88,9 @@ class sign_up_2_activity : Activity() {
         rectangle_143 = findViewById(R.id.rectangle_143) as View
         _497_evergreen_rd_ = findViewById<View>(R.id._497_evergreen_rd_) as TextView
         street = findViewById<View>(R.id.street) as TextView
-        rectangle_119_ek1 = findViewById(R.id.rectangle_119_ek1) as View
+        rectangle_119_ek1 = findViewById(R.id.continue_sign2) as View
         continue_ek4 = findViewById<View>(R.id.continue_ek4) as TextView
-        path_10_ek1 = findViewById<View>(R.id.path_10_ek1) as ImageView
+        path_10_ek1 = findViewById<View>(R.id.back_sign2) as ImageView
 
 
         //custom code goes here

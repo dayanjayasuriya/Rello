@@ -44,7 +44,6 @@ class start_activity : Activity() {
 
         _bg__start_ek2 = findViewById(R.id._bg__start_ek2) as View
         rectangle_1468_ek1 = findViewById(R.id.rectangle_1468_ek1) as View
-        rello_ek3 = findViewById<View>(R.id.rello_ek3) as TextView
         excellent_ = findViewById<View>(R.id.excellent_) as TextView
         you_re_now_ready_to_create__your_first_group_ =
             findViewById<View>(R.id.you_re_now_ready_to_create__your_first_group_) as TextView
