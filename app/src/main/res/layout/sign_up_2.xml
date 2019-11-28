@@ -1,4 +1,6 @@
-<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent" android:layout_height="wrap_content" >
 	<!-- 
 	/*
@@ -34,13 +36,14 @@
 				android:layout_height="wrap_content"
 				>
 
-				<View android:id="@+id/_bg__sign_up_2_ek2"
-					android:background="@drawable/_bg__sign_up_2_ek2_shape"
-					 android:layout_marginLeft="0dp"
-					 android:layout_marginStart="0dp"
-					android:layout_marginTop="0dp"
+				<View
+					android:id="@+id/_bg__sign_up_2_ek2"
 					android:layout_width="360dp"
-					android:layout_height="640dp" />
+					android:layout_height="640dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginLeft="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@color/colorPrimaryDark" />
 
 
 				<RelativeLayout android:id="@+id/personal_information"
@@ -74,26 +77,26 @@
 								android:layout_width="277dp"
 								android:layout_height="46dp" />
 
-							<TextView android:id="@+id/_09_09_1987"
-								android:fontFamily="Arial"
-								android:textSize="14sp"
-								android:textColor="@color/_09_09_1987_color"
-								android:layout_marginLeft="20dp"
-								android:layout_marginTop="33dp"
+							<EditText
+								android:id="@+id/_09_09_1987"
 								android:layout_width="75dp"
 								android:layout_height="19dp"
-								android:text="@string/_09_09_1987_string"
-								 />
-
-							<TextView android:id="@+id/date_of_birth"
+								android:layout_marginLeft="20dp"
+								android:layout_marginTop="33dp"
 								android:fontFamily="Arial"
+								android:text="@string/_09_09_1987_string"
 								android:textColor="@color/_09_09_1987_color"
+								android:textSize="14sp" />
+
+							<TextView
+								android:id="@+id/date_of_birth"
+								android:layout_width="95dp"
+								android:layout_height="wrap_content"
 								android:layout_marginLeft="0dp"
 								android:layout_marginTop="0dp"
-								android:layout_width="61dp"
-								android:layout_height="13dp"
+								android:fontFamily="Arial"
 								android:text="@string/date_of_birth_string"
-								 />
+								android:textColor="#FFC107" />
 
 
 							<RelativeLayout android:id="@+id/symbol_156___9"
@@ -101,26 +104,7 @@
 								android:layout_marginStart="253dp"
 								android:layout_width="wrap_content"
 								android:layout_height="wrap_content"
-								>
-
-								<ImageView android:id="@+id/path_36"
-									android:src="@drawable/path_36"
-									android:contentDescription="path_36"
-									 android:layout_marginLeft="0dp"
-									 android:layout_marginStart="0dp"
-									android:layout_marginTop="2dp"
-									android:layout_width="9.4000244140625dp"
-									android:layout_height="6.1000061035156dp" />
-
-								<View android:id="@+id/rectangle_1467"
-									android:background="@drawable/rectangle_1467_shape"
-									 android:layout_marginLeft="0dp"
-									 android:layout_marginStart="0dp"
-									android:layout_marginTop="0dp"
-									android:layout_width="10dp"
-									android:layout_height="10dp" />
-
-							</RelativeLayout>
+								/>
 
 						</RelativeLayout>
 
@@ -140,26 +124,26 @@
 								android:layout_width="277dp"
 								android:layout_height="46dp" />
 
-							<TextView android:id="@+id/united_states"
-								android:fontFamily="Arial"
-								android:textSize="14sp"
-								android:textColor="@color/_09_09_1987_color"
-								android:layout_marginLeft="20dp"
-								android:layout_marginTop="33dp"
+							<EditText
+								android:id="@+id/united_states"
 								android:layout_width="89dp"
 								android:layout_height="19dp"
-								android:text="@string/united_states_string"
-								 />
-
-							<TextView android:id="@+id/country_region"
+								android:layout_marginLeft="20dp"
+								android:layout_marginTop="33dp"
 								android:fontFamily="Arial"
+								android:text="@string/united_states_string"
 								android:textColor="@color/_09_09_1987_color"
+								android:textSize="14sp" />
+
+							<TextView
+								android:id="@+id/country_region"
+								android:layout_width="146dp"
+								android:layout_height="wrap_content"
 								android:layout_marginLeft="0dp"
 								android:layout_marginTop="0dp"
-								android:layout_width="74dp"
-								android:layout_height="13dp"
+								android:fontFamily="Arial"
 								android:text="@string/country_region_string"
-								 />
+								android:textColor="#FFC107" />
 
 
 							<RelativeLayout android:id="@+id/symbol_156___10"
@@ -167,26 +151,7 @@
 								android:layout_marginStart="253dp"
 								android:layout_width="wrap_content"
 								android:layout_height="wrap_content"
-								>
-
-								<ImageView android:id="@+id/path_36_ek1"
-									android:src="@drawable/path_36_ek1"
-									android:contentDescription="path_36_ek1"
-									 android:layout_marginLeft="0dp"
-									 android:layout_marginStart="0dp"
-									android:layout_marginTop="2dp"
-									android:layout_width="9.4000244140625dp"
-									android:layout_height="6.1000061035156dp" />
-
-								<View android:id="@+id/rectangle_1467_ek1"
-									android:background="@drawable/rectangle_1467_ek1_shape"
-									 android:layout_marginLeft="0dp"
-									 android:layout_marginStart="0dp"
-									android:layout_marginTop="0dp"
-									android:layout_width="10dp"
-									android:layout_height="10dp" />
-
-							</RelativeLayout>
+								/>
 
 						</RelativeLayout>
 
@@ -206,26 +171,26 @@
 								android:layout_width="277dp"
 								android:layout_height="46dp" />
 
-							<TextView android:id="@+id/california"
-								android:fontFamily="Arial"
-								android:textSize="14sp"
-								android:textColor="@color/_09_09_1987_color"
-								android:layout_marginLeft="20dp"
-								android:layout_marginTop="33dp"
+							<EditText
+								android:id="@+id/california"
 								android:layout_width="64dp"
 								android:layout_height="19dp"
-								android:text="@string/california_string"
-								 />
-
-							<TextView android:id="@+id/state"
+								android:layout_marginLeft="20dp"
+								android:layout_marginTop="33dp"
 								android:fontFamily="Arial"
+								android:text="@string/california_string"
 								android:textColor="@color/_09_09_1987_color"
+								android:textSize="14sp" />
+
+							<TextView
+								android:id="@+id/state"
+								android:layout_width="118dp"
+								android:layout_height="wrap_content"
 								android:layout_marginLeft="0dp"
 								android:layout_marginTop="0dp"
-								android:layout_width="28dp"
-								android:layout_height="13dp"
+								android:fontFamily="Arial"
 								android:text="@string/state_string"
-								 />
+								android:textColor="#FFC107" />
 
 
 							<RelativeLayout android:id="@+id/symbol_156___11"
@@ -233,26 +198,7 @@
 								android:layout_marginStart="253dp"
 								android:layout_width="wrap_content"
 								android:layout_height="wrap_content"
-								>
-
-								<ImageView android:id="@+id/path_36_ek2"
-									android:src="@drawable/path_36_ek2"
-									android:contentDescription="path_36_ek2"
-									 android:layout_marginLeft="0dp"
-									 android:layout_marginStart="0dp"
-									android:layout_marginTop="2dp"
-									android:layout_width="9.4000244140625dp"
-									android:layout_height="6.1000061035156dp" />
-
-								<View android:id="@+id/rectangle_1467_ek2"
-									android:background="@drawable/rectangle_1467_ek2_shape"
-									 android:layout_marginLeft="0dp"
-									 android:layout_marginStart="0dp"
-									android:layout_marginTop="0dp"
-									android:layout_width="10dp"
-									android:layout_height="10dp" />
-
-							</RelativeLayout>
+								/>
 
 						</RelativeLayout>
 
@@ -272,26 +218,26 @@
 								android:layout_width="277dp"
 								android:layout_height="46dp" />
 
-							<TextView android:id="@+id/roseville"
-								android:fontFamily="Arial"
-								android:textSize="14sp"
-								android:textColor="@color/_09_09_1987_color"
-								android:layout_marginLeft="20dp"
-								android:layout_marginTop="33dp"
+							<EditText
+								android:id="@+id/roseville"
 								android:layout_width="62dp"
 								android:layout_height="19dp"
-								android:text="@string/roseville_string"
-								 />
-
-							<TextView android:id="@+id/city"
+								android:layout_marginLeft="20dp"
+								android:layout_marginTop="33dp"
 								android:fontFamily="Arial"
+								android:text="@string/roseville_string"
 								android:textColor="@color/_09_09_1987_color"
+								android:textSize="14sp" />
+
+							<TextView
+								android:id="@+id/city"
+								android:layout_width="113dp"
+								android:layout_height="wrap_content"
 								android:layout_marginLeft="0dp"
 								android:layout_marginTop="0dp"
-								android:layout_width="22dp"
-								android:layout_height="13dp"
+								android:fontFamily="Arial"
 								android:text="@string/city_string"
-								 />
+								android:textColor="#FFC107" />
 
 
 							<RelativeLayout android:id="@+id/symbol_156___12"
@@ -299,65 +245,24 @@
 								android:layout_marginStart="253dp"
 								android:layout_width="wrap_content"
 								android:layout_height="wrap_content"
-								>
-
-								<ImageView android:id="@+id/path_36_ek3"
-									android:src="@drawable/path_36_ek3"
-									android:contentDescription="path_36_ek3"
-									 android:layout_marginLeft="0dp"
-									 android:layout_marginStart="0dp"
-									android:layout_marginTop="2dp"
-									android:layout_width="9.4000244140625dp"
-									android:layout_height="6.1000061035156dp" />
-
-								<View android:id="@+id/rectangle_1467_ek3"
-									android:background="@drawable/rectangle_1467_ek3_shape"
-									 android:layout_marginLeft="0dp"
-									 android:layout_marginStart="0dp"
-									android:layout_marginTop="0dp"
-									android:layout_width="10dp"
-									android:layout_height="10dp" />
-
-							</RelativeLayout>
+								/>
 
 						</RelativeLayout>
 
 					</RelativeLayout>
 
-					<TextView android:id="@+id/personal_information_ek1"
-						android:fontFamily="Arial"
-						android:layout_gravity="center_horizontal|center"
-						android:gravity="center"
-						android:textSize="14sp"
-						android:textColor="@color/personal_information_ek1_color"
-						android:layout_marginLeft="89dp"
-						android:layout_marginTop="0dp"
+					<TextView
+						android:id="@+id/personal_information_ek1"
 						android:layout_width="145dp"
 						android:layout_height="19dp"
+						android:layout_gravity="center_horizontal|center"
+						android:layout_marginLeft="89dp"
+						android:layout_marginTop="0dp"
+						android:fontFamily="Arial"
+						android:gravity="center"
 						android:text="@string/personal_information_ek1_string"
-						 />
-
-
-					<RelativeLayout android:id="@+id/button"
-						android:layout_marginTop="525dp"
-						android:layout_marginStart="135dp"
-						android:layout_width="wrap_content"
-						android:layout_height="wrap_content"
-						>
-
-						<TextView android:id="@+id/continue_ek2"
-							android:fontFamily="Arial"
-							android:layout_gravity="center_horizontal|center"
-							android:gravity="center"
-							android:textColor="@color/continue_ek1_color"
-							android:layout_marginLeft="0dp"
-							android:layout_marginTop="0dp"
-							android:layout_width="57dp"
-							android:layout_height="13dp"
-							android:text="@string/continue_ek2_string"
-							 />
-
-					</RelativeLayout>
+						android:textColor="#FFC107"
+						android:textSize="14sp" />
 
 
 					<RelativeLayout android:id="@+id/input_ek10"
@@ -367,35 +272,36 @@
 						android:layout_height="wrap_content"
 						>
 
-						<View android:id="@+id/rectangle_143"
-							android:background="@drawable/rectangle_143_shape"
-							 android:layout_marginLeft="0dp"
-							 android:layout_marginStart="0dp"
-							android:layout_marginTop="19dp"
+						<EditText
+							android:id="@+id/rectangle_143"
 							android:layout_width="277dp"
-							android:layout_height="46dp" />
+							android:layout_height="46dp"
+							android:layout_marginStart="0dp"
+							android:layout_marginLeft="0dp"
+							android:layout_marginTop="19dp"
+							android:background="@drawable/rectangle_143_shape" />
 
-						<TextView android:id="@+id/_497_evergreen_rd_"
-							android:fontFamily="Arial"
-							android:textSize="14sp"
-							android:textColor="@color/_497_evergreen_rd__color"
-							android:layout_marginLeft="20dp"
-							android:layout_marginTop="35dp"
+						<EditText
+							android:id="@+id/_497_evergreen_rd_"
 							android:layout_width="123dp"
 							android:layout_height="19dp"
-							android:text="@string/_497_evergreen_rd__string"
-							 />
-
-						<TextView android:id="@+id/street"
+							android:layout_marginLeft="20dp"
+							android:layout_marginTop="35dp"
 							android:fontFamily="Arial"
-							android:textSize="12sp"
-							android:textColor="@color/street_color"
+							android:text="@string/_497_evergreen_rd__string"
+							android:textColor="@color/_497_evergreen_rd__color"
+							android:textSize="14sp" />
+
+						<TextView
+							android:id="@+id/street"
+							android:layout_width="103dp"
+							android:layout_height="wrap_content"
 							android:layout_marginLeft="0dp"
 							android:layout_marginTop="0dp"
-							android:layout_width="37dp"
-							android:layout_height="16dp"
+							android:fontFamily="Arial"
 							android:text="@string/street_string"
-							 />
+							android:textColor="#FF9800"
+							android:textSize="12sp" />
 
 					</RelativeLayout>
 
@@ -407,25 +313,33 @@
 						android:layout_height="wrap_content"
 						>
 
-						<View android:id="@+id/rectangle_119_ek1"
-							android:background="@drawable/rectangle_119_ek1_shape"
-							 android:layout_marginLeft="0dp"
-							 android:layout_marginStart="0dp"
-							android:layout_marginTop="0dp"
+						<View
+							android:id="@+id/rectangle_119_ek1"
 							android:layout_width="320dp"
-							android:layout_height="35dp" />
+							android:layout_height="35dp"
+							android:layout_marginStart="0dp"
+							android:layout_marginLeft="0dp"
+							android:layout_marginTop="0dp"
+							android:background="@color/_497_evergreen_rd__color" />
 
-						<TextView android:id="@+id/continue_ek4"
-							android:fontFamily="Arial"
-							android:layout_gravity="center_horizontal|center"
-							android:gravity="center"
-							android:textColor="@color/continue_ek1_color"
-							android:layout_marginLeft="132dp"
-							android:layout_marginTop="12dp"
-							android:layout_width="57dp"
-							android:layout_height="13dp"
-							android:text="@string/continue_ek4_string"
-							 />
+						<TextView
+							android:id="@+id/textView3"
+							android:layout_width="72dp"
+							android:layout_height="23dp"
+							android:layout_alignBottom="@+id/rectangle_119_ek1"
+							android:layout_alignParentStart="true"
+							android:layout_alignParentLeft="true"
+							android:layout_alignParentTop="true"
+							android:layout_alignParentEnd="true"
+							android:layout_alignParentRight="true"
+							android:layout_marginStart="136dp"
+							android:layout_marginLeft="136dp"
+							android:layout_marginTop="7dp"
+							android:layout_marginEnd="132dp"
+							android:layout_marginRight="132dp"
+							android:layout_marginBottom="5dp"
+							android:text="@string/continue_ek1_string"
+							android:textColor="#FFC107" />
 
 					</RelativeLayout>
 
@@ -439,14 +353,17 @@
 					android:layout_height="wrap_content"
 					>
 
-					<ImageView android:id="@+id/path_10_ek1"
-						android:src="@drawable/path_10_ek1"
-						android:contentDescription="path_10_ek1"
-						 android:layout_marginLeft="0dp"
-						 android:layout_marginStart="0dp"
-						android:layout_marginTop="0dp"
+					<ImageView
+						android:id="@+id/path_10_ek1"
 						android:layout_width="16dp"
-						android:layout_height="16dp" />
+						android:layout_height="16dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginLeft="0dp"
+						android:layout_marginTop="0dp"
+						android:background="#FFC107"
+						android:contentDescription="path_10_ek1"
+						android:src="@drawable/path_10_ek1"
+						app:srcCompat="@android:drawable/ic_menu_revert" />
 
 				</RelativeLayout>
 
