@@ -36,66 +36,48 @@
 				android:layout_height="wrap_content"
 				>
 
-				<View android:id="@+id/_bg__onboarding_2_ek2"
-					android:background="@drawable/_bg__onboarding_2_ek2_shape"
-					 android:layout_marginLeft="0dp"
-					 android:layout_marginStart="0dp"
-					android:layout_marginTop="0dp"
+				<View
+					android:id="@+id/_bg__onboarding_2_ek2"
 					android:layout_width="360dp"
-					android:layout_height="640dp" />
+					android:layout_height="640dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginLeft="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@color/colorPrimaryDark" />
 
 
-				<RelativeLayout android:id="@+id/title_ek1"
-					android:layout_marginTop="55dp"
+				<RelativeLayout
+					android:id="@+id/title_ek1"
+					android:layout_width="313dp"
+					android:layout_height="137dp"
 					android:layout_marginStart="23dp"
-					android:layout_width="wrap_content"
-					android:layout_height="wrap_content"
-					>
+					android:layout_marginTop="55dp">
 
-					<TextView android:id="@+id/groups"
-						android:fontFamily="Georgia"
-						android:layout_gravity="center_horizontal|center"
-						android:gravity="center"
-						android:textSize="40sp"
-						android:textColor="@color/create_an_account_ek1_color"
-						android:layout_marginLeft="86dp"
-						android:layout_marginTop="0dp"
+					<TextView
+						android:id="@+id/groups"
 						android:layout_width="135dp"
 						android:layout_height="54dp"
-						android:text="@string/groups_string"
-						 />
-
-					<TextView android:id="@+id/find_all_of_your_groups__you_can_also_join_other_groups_and_create_your_own_groups_under_this_tab_"
-						android:fontFamily="Arial"
 						android:layout_gravity="center_horizontal|center"
+						android:layout_marginLeft="86dp"
+						android:layout_marginTop="0dp"
+						android:fontFamily="Georgia"
 						android:gravity="center"
-						android:textSize="14sp"
-						android:textColor="@color/create_an_account_ek1_color"
+						android:text="@string/groups_string"
+						android:textColor="#FFC107"
+						android:textSize="40sp" />
+
+					<TextView
+						android:id="@+id/find_all_of_your_groups__you_can_also_join_other_groups_and_create_your_own_groups_under_this_tab_"
+						android:layout_width="315dp"
+						android:layout_height="70dp"
+						android:layout_gravity="center_horizontal|center"
 						android:layout_marginLeft="0dp"
 						android:layout_marginTop="64dp"
-						android:layout_width="315dp"
-						android:layout_height="43dp"
+						android:fontFamily="Arial"
+						android:gravity="center"
 						android:text="@string/find_all_of_your_groups__you_can_also_join_other_groups_and_create_your_own_groups_under_this_tab__string"
-						 />
-
-				</RelativeLayout>
-
-
-				<RelativeLayout android:id="@+id/bitmap_ek3"
-					android:layout_marginTop="199dp"
-					android:layout_marginStart="85dp"
-					android:layout_width="wrap_content"
-					android:layout_height="wrap_content"
-					>
-
-					<ImageView android:id="@+id/bitmap_ek4"
-						android:src="@drawable/bitmap_ek4"
-						android:contentDescription="bitmap_ek4"
-						 android:layout_marginLeft="0dp"
-						 android:layout_marginStart="0dp"
-						android:layout_marginTop="0dp"
-						android:layout_width="191dp"
-						android:layout_height="191dp" />
+						android:textColor="#FFC107"
+						android:textSize="14sp" />
 
 				</RelativeLayout>
 

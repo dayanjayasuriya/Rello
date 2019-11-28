@@ -1,4 +1,6 @@
-<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent" android:layout_height="wrap_content" >
 	<!-- 
 	/*
@@ -36,14 +38,15 @@
 				android:layout_height="wrap_content"
 				>
 
-				<View android:id="@+id/_bg__onboarding_3_ek2"
-					android:background="@drawable/_bg__onboarding_3_ek2_shape"
-					 android:layout_marginLeft="0dp"
-					 android:layout_marginStart="0dp"
-					android:layout_marginTop="0dp"
-					android:layout_width="360dp"
-					android:layout_height="640dp" />
 
+				<View
+					android:id="@+id/_bg__onboarding_3_ek2"
+					android:layout_width="360dp"
+					android:layout_height="640dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginLeft="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@color/colorPrimaryDark" />
 
 				<RelativeLayout android:id="@+id/title_ek2"
 					android:layout_marginTop="55dp"
@@ -52,31 +55,31 @@
 					android:layout_height="wrap_content"
 					>
 
-					<TextView android:id="@+id/chat"
-						android:fontFamily="Georgia"
-						android:layout_gravity="center_horizontal|center"
-						android:gravity="center"
-						android:textSize="40sp"
-						android:textColor="@color/create_an_account_ek1_color"
-						android:layout_marginLeft="110dp"
-						android:layout_marginTop="0dp"
+					<TextView
+						android:id="@+id/chat"
 						android:layout_width="87dp"
 						android:layout_height="54dp"
-						android:text="@string/chat_string"
-						 />
-
-					<TextView android:id="@+id/chat_with_those_in_your_group_"
-						android:fontFamily="Arial"
 						android:layout_gravity="center_horizontal|center"
+						android:layout_marginLeft="110dp"
+						android:layout_marginTop="0dp"
+						android:fontFamily="Georgia"
 						android:gravity="center"
-						android:textSize="14sp"
-						android:textColor="@color/create_an_account_ek1_color"
-						android:layout_marginLeft="0dp"
-						android:layout_marginTop="64dp"
+						android:text="@string/chat_string"
+						android:textColor="#FFC107"
+						android:textSize="40sp" />
+
+					<TextView
+						android:id="@+id/chat_with_those_in_your_group_"
 						android:layout_width="315dp"
 						android:layout_height="43dp"
+						android:layout_gravity="center_horizontal|center"
+						android:layout_marginLeft="0dp"
+						android:layout_marginTop="64dp"
+						android:fontFamily="Arial"
+						android:gravity="center"
 						android:text="@string/chat_with_those_in_your_group__string"
-						 />
+						android:textColor="#FFC107"
+						android:textSize="14sp" />
 
 				</RelativeLayout>
 
@@ -123,24 +126,22 @@
 
 				</RelativeLayout>
 
+				<ImageView
+					android:id="@+id/imageView8"
+					android:layout_width="152dp"
+					android:layout_height="167dp"
+					android:layout_below="@+id/title_ek2"
+					android:layout_alignParentStart="true"
+					android:layout_alignParentLeft="true"
+					android:layout_alignParentEnd="true"
+					android:layout_alignParentRight="true"
+					android:layout_marginStart="106dp"
+					android:layout_marginLeft="106dp"
+					android:layout_marginTop="75dp"
+					android:layout_marginEnd="102dp"
+					android:layout_marginRight="102dp"
+					app:srcCompat="@android:drawable/sym_action_chat" />
 
-				<RelativeLayout android:id="@+id/bitmap_copy_4"
-					android:layout_marginTop="160dp"
-					android:layout_marginStart="74dp"
-					android:layout_width="wrap_content"
-					android:layout_height="wrap_content"
-					>
-
-					<ImageView android:id="@+id/bitmap_copy_4_ek1"
-						android:src="@drawable/bitmap_copy_4_ek1"
-						android:contentDescription="bitmap_copy_4_ek1"
-						 android:layout_marginLeft="0dp"
-						 android:layout_marginStart="0dp"
-						android:layout_marginTop="0dp"
-						android:layout_width="214dp"
-						android:layout_height="214dp" />
-
-				</RelativeLayout>
 
 			</RelativeLayout>
 
