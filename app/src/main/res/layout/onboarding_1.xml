@@ -34,7 +34,7 @@
 				android:layout_marginStart="0dp"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
-				>
+                android:layout_marginLeft="0dp">
 
 				<View
 					android:id="@+id/_bg__onboarding_1_ek2"
@@ -51,7 +51,7 @@
 					android:layout_marginStart="23dp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					>
+                    android:layout_marginLeft="23dp">
 
 					<TextView
 						android:id="@+id/discover"
@@ -87,7 +87,7 @@
 					android:layout_marginStart="153dp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					>
+                    android:layout_marginLeft="153dp">
 
 					<View android:id="@+id/ellipse_8"
 						android:background="@drawable/ellipse_8_shape"
@@ -124,27 +124,23 @@
 				</RelativeLayout>
 
 
-				<RelativeLayout android:id="@+id/bitmap_ek1"
-					android:layout_marginTop="209dp"
-					android:layout_marginStart="96dp"
-					android:layout_width="wrap_content"
-					android:layout_height="wrap_content"
-					>
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="161dp"
+                    android:layout_height="196dp"
+                    android:layout_below="@+id/title"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="48dp"
+                    android:layout_marginEnd="99dp"
+                    android:layout_marginRight="99dp"
+                    app:srcCompat="@android:drawable/ic_menu_agenda" />
 
-					<ImageView
-						android:id="@+id/bitmap_ek2"
-						android:layout_width="170dp"
-						android:layout_height="170dp"
-						android:layout_marginStart="0dp"
-						android:layout_marginLeft="0dp"
-						android:layout_marginTop="0dp"
-						android:contentDescription="bitmap_ek2"
-						android:src="@drawable/bitmap_ek2"
-						app:srcCompat="@android:drawable/ic_menu_agenda" />
-
-				</RelativeLayout>
-
-			</RelativeLayout>
+            </RelativeLayout>
 
 
 
