@@ -54,20 +54,20 @@
 					android:layout_width="358dp"
 					android:layout_height="193dp" />
 
-				<TextView android:id="@+id/rello_ek3"
+				<TextView
+					android:id="@+id/rello_ek3"
+					android:layout_width="228dp"
+					android:layout_height="145dp"
+					android:layout_marginLeft="76dp"
+					android:layout_marginTop="34dp"
 					android:fontFamily="Segoe UI"
-					android:textSize="97sp"
-					android:shadowRadius="2"
 					android:shadowColor="#000000"
 					android:shadowDx="0"
 					android:shadowDy="3"
-					android:textColor="@color/rello_color"
-					android:layout_marginLeft="76dp"
-					android:layout_marginTop="34dp"
-					android:layout_width="213dp"
-					android:layout_height="146dp"
+					android:shadowRadius="2"
 					android:text="@string/rello_ek3_string"
-					 />
+					android:textColor="@color/rello_color"
+					android:textSize="97sp" />
 
 				<TextView android:id="@+id/excellent_"
 					android:fontFamily="Segoe UI"
@@ -80,18 +80,17 @@
 					android:text="@string/excellent__string"
 					 />
 
-				<TextView android:id="@+id/you_re_now_ready_to_create__your_first_group_"
-					android:fontFamily="Segoe UI"
-					android:layout_gravity="center_horizontal|center"
-					android:gravity="center"
-					android:textSize="24sp"
-					android:textColor="@color/create_an_account_ek1_color"
-					android:layout_marginLeft="33dp"
-					android:layout_marginTop="289dp"
+				<TextView
+					android:id="@+id/you_re_now_ready_to_create__your_first_group_"
 					android:layout_width="291dp"
 					android:layout_height="67dp"
-					android:text="@string/you_re_now_ready_to_create__your_first_group__string"
-					 />
+					android:layout_marginLeft="33dp"
+					android:layout_marginTop="289dp"
+					android:fontFamily="Segoe UI"
+					android:gravity="center"
+					android:text="You are now ready to create your first group."
+					android:textColor="@color/create_an_account_ek1_color"
+					android:textSize="24sp" />
 
 
 				<RelativeLayout android:id="@+id/rectangle"
