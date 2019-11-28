@@ -34,7 +34,7 @@
 				android:layout_marginStart="0dp"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
-				>
+				android:layout_marginLeft="0dp">
 
 
 
@@ -91,7 +91,7 @@
 					android:layout_marginStart="9dp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					>
+					android:layout_marginLeft="9dp">
 
 					<ImageView android:id="@+id/path_10_ek2"
 						android:src="@drawable/path_10_ek2"
@@ -110,7 +110,7 @@
 					android:layout_marginStart="33dp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					>
+					android:layout_marginLeft="33dp">
 
 
 					<RelativeLayout android:id="@+id/inputs_ek1"
@@ -118,7 +118,7 @@
 						android:layout_marginStart="0dp"
 						android:layout_width="wrap_content"
 						android:layout_height="wrap_content"
-						>
+						android:layout_marginLeft="0dp">
 
 
 						<RelativeLayout android:id="@+id/inputs_ek2"
@@ -126,7 +126,7 @@
 							android:layout_marginStart="0dp"
 							android:layout_width="wrap_content"
 							android:layout_height="wrap_content"
-							>
+							android:layout_marginLeft="0dp">
 
 							<View android:id="@+id/rectangle_123"
 								android:background="@drawable/rectangle_123_shape"
@@ -155,7 +155,7 @@
 							android:layout_marginStart="0dp"
 							android:layout_width="wrap_content"
 							android:layout_height="wrap_content"
-							>
+							android:layout_marginLeft="0dp">
 
 							<View android:id="@+id/rectangle_123_ek1"
 								android:background="@drawable/rectangle_123_ek1_shape"
@@ -210,7 +210,7 @@
 					android:layout_marginStart="20dp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					>
+					android:layout_marginLeft="20dp">
 
 					<Button
 						android:id="@+id/textView2"
