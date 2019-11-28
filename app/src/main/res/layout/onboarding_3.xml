@@ -36,7 +36,7 @@
 				android:layout_marginStart="0dp"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
-				>
+				android:layout_marginLeft="0dp">
 
 
 				<View
@@ -53,7 +53,7 @@
 					android:layout_marginStart="23dp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					>
+					android:layout_marginLeft="23dp">
 
 					<TextView
 						android:id="@+id/chat"
@@ -89,7 +89,7 @@
 					android:layout_marginStart="153dp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					>
+					android:layout_marginLeft="153dp">
 
 					<ImageView android:id="@+id/path_52"
 						android:src="@drawable/path_52"

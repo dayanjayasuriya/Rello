@@ -34,7 +34,7 @@
 				android:layout_marginStart="0dp"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
-				>
+				android:layout_marginLeft="0dp">
 
 				<View
 					android:id="@+id/_bg__onboarding_2_ek2"
@@ -51,7 +51,8 @@
 					android:layout_width="313dp"
 					android:layout_height="137dp"
 					android:layout_marginStart="23dp"
-					android:layout_marginTop="55dp">
+					android:layout_marginTop="55dp"
+					android:layout_marginLeft="23dp">
 
 					<TextView
 						android:id="@+id/groups"
@@ -87,7 +88,7 @@
 					android:layout_marginStart="153dp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					>
+					android:layout_marginLeft="153dp">
 
 					<View android:id="@+id/ellipse_8_ek1"
 						android:background="@drawable/ellipse_8_ek1_shape"
