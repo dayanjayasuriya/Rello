@@ -70,7 +70,7 @@ class sign_up_1_activity : Activity() {
         rectangle_68 = findViewById(R.id.rectangle_68) as View
         rectangle_69 = findViewById(R.id.rectangle_69) as View
         rello_ek1 = findViewById<View>(R.id.rello_ek1) as TextView
-        path_10 = findViewById<View>(R.id.path_10) as ImageView
+        path_10 = findViewById<View>(R.id.back_sign1) as ImageView
 
 
         //custom code goes here
