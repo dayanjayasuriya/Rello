@@ -52,7 +52,7 @@ class onboarding_4_activity : Activity() {
         ellipse_10_ek3 = findViewById(R.id.ellipse_10_ek3) as View
         ellipse_11_ek3 = findViewById(R.id.ellipse_11_ek3) as View
         bitmap_ek6 = findViewById<View>(R.id.bitmap_ek6) as ImageView
-        rectangle_119_ek3 = findViewById(R.id.rectangle_119_ek3) as View
+        rectangle_119_ek3 = findViewById(R.id.start) as View
         let_s_start = findViewById<View>(R.id.let_s_start) as TextView
 
 

@@ -34,7 +34,8 @@
 				android:layout_marginStart="0dp"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
-				android:layout_marginLeft="0dp">
+				android:layout_marginLeft="0dp"
+				tools:ignore="UselessParent">
 
 
 
@@ -57,15 +58,17 @@
 					android:background="@color/colorPrimaryDark" />
 
 				<Button
-					android:id="@+id/back_sign1"
-					android:layout_width="16dp"
-					android:layout_height="16dp"
+					android:id="@+id/back_sign2"
+					android:layout_width="20dp"
+					android:layout_height="20dp"
 					android:layout_marginStart="5dp"
-					android:layout_marginLeft="10dp"
-					android:layout_marginTop="5dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginTop="10dp"
 					android:background="#FFC107"
-					android:contentDescription="path_10"
-					android:foreground="@android:drawable/ic_menu_revert" />
+					android:contentDescription="@string/back_sign2"
+					android:foreground="@android:drawable/ic_menu_revert"
+					tools:ignore="UnusedAttribute"
+					tools:targetApi="m" />
 
 
 				<ImageView
@@ -84,25 +87,15 @@
 					android:layout_marginEnd="125dp"
 					android:layout_marginRight="125dp"
 					android:layout_marginBottom="34dp"
-					app:srcCompat="@mipmap/rello_logo_round" />
+					app:srcCompat="@mipmap/rello_logo_round"
+					android:contentDescription="@string/rello_logo" />
 
 				<RelativeLayout android:id="@+id/backward_arrow_ek2"
 					android:layout_marginTop="19dp"
 					android:layout_marginStart="9dp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					android:layout_marginLeft="9dp">
-
-					<ImageView android:id="@+id/path_10_ek2"
-						android:src="@drawable/path_10_ek2"
-						android:contentDescription="path_10_ek2"
-						 android:layout_marginLeft="0dp"
-						 android:layout_marginStart="0dp"
-						android:layout_marginTop="0dp"
-						android:layout_width="16dp"
-						android:layout_height="16dp" />
-
-				</RelativeLayout>
+					android:layout_marginLeft="9dp"/>
 
 
 				<RelativeLayout android:id="@+id/inputs"
@@ -138,14 +131,24 @@
 
 							<EditText
 								android:id="@+id/johndoe_mail_com"
-								android:layout_width="126dp"
-								android:layout_height="19dp"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_alignParentStart="true"
+								android:layout_alignParentLeft="true"
+								android:layout_alignParentTop="true"
+								android:layout_alignParentEnd="true"
+								android:layout_alignParentRight="true"
+								android:layout_marginStart="24dp"
 								android:layout_marginLeft="24dp"
-								android:layout_marginTop="16dp"
-								android:fontFamily="Arial"
-								android:text="@string/johndoe_mail_com_string"
+								android:layout_marginTop="5dp"
+								android:layout_marginEnd="220dp"
+								android:layout_marginRight="220dp"
+								android:importantForAutofill="no"
+								android:inputType="textEmailAddress"
+								android:text="@string/e_mail_string"
 								android:textColor="@color/_09_09_1987_color"
-								android:textSize="14sp" />
+								android:textSize="14sp"
+								tools:ignore="LabelFor" />
 
 						</RelativeLayout>
 
@@ -167,14 +170,20 @@
 
 							<EditText
 								android:id="@+id/________"
-								android:layout_width="64dp"
-								android:layout_height="19dp"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_alignParentStart="true"
+								android:layout_alignParentLeft="true"
+								android:layout_alignParentTop="true"
+								android:layout_marginStart="24dp"
 								android:layout_marginLeft="25dp"
-								android:layout_marginTop="16dp"
-								android:fontFamily="Arial"
-								android:text="@string/_________string"
+								android:layout_marginTop="5dp"
+								android:inputType="textPassword"
+								android:text="@string/confirm_password_string"
 								android:textColor="@color/_09_09_1987_color"
-								android:textSize="14sp" />
+								android:textSize="14sp"
+								android:importantForAutofill="no"
+								tools:ignore="LabelFor" />
 
 						</RelativeLayout>
 
@@ -188,10 +197,10 @@
 					android:layout_height="wrap_content"
 					android:layout_marginLeft="62dp"
 					android:layout_marginTop="229dp"
-					android:fontFamily="Segoe UI"
 					android:text="@string/e_mail_string"
 					android:textColor="@color/create_an_account_ek1_color"
-					android:textSize="19sp" />
+					android:textSize="19sp"
+					android:layout_marginStart="62dp" />
 
 				<TextView
 					android:id="@+id/password_ek1"
@@ -199,10 +208,10 @@
 					android:layout_height="wrap_content"
 					android:layout_marginLeft="62dp"
 					android:layout_marginTop="317dp"
-					android:fontFamily="Segoe UI"
 					android:text="@string/password_ek1_string"
 					android:textColor="@color/create_an_account_ek1_color"
-					android:textSize="19sp" />
+					android:textSize="19sp"
+					android:layout_marginStart="62dp" />
 
 
 				<RelativeLayout android:id="@+id/continue_ek5"
@@ -213,7 +222,7 @@
 					android:layout_marginLeft="20dp">
 
 					<Button
-						android:id="@+id/textView2"
+						android:id="@+id/continue_login"
 						android:layout_width="134dp"
 						android:layout_height="match_parent"
 						android:layout_alignParentStart="true"

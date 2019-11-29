@@ -65,7 +65,7 @@ class create_group_activity : Activity() {
         group_description = findViewById<View>(R.id.group_description) as TextView
         rectangle_1469 = findViewById(R.id.rectangle_1469) as View
         this_is_the_hiker_s_club_in_calgary_______ =
-            findViewById<View>(R.id.this_is_the_hiker_s_club_in_calgary_______) as TextView
+            findViewById<View>(R.id.gdesc_et) as TextView
         group_profile_picture = findViewById<View>(R.id.group_profile_picture) as TextView
         __max_150_characters_ = findViewById<View>(R.id.__max_150_characters_) as TextView
         path_110 = findViewById<View>(R.id.path_110) as ImageView

@@ -24,11 +24,18 @@
 			android:layout_height="640dp" >
 
 
-
-
-
-
-
+			<Button
+				android:id="@+id/back_sign2"
+				android:layout_width="20dp"
+				android:layout_height="20dp"
+				android:layout_marginStart="5dp"
+				android:layout_marginLeft="5dp"
+				android:layout_marginTop="10dp"
+				android:background="#FFC107"
+				android:contentDescription="@string/back_sign2"
+				android:foreground="@android:drawable/ic_menu_revert"
+				tools:ignore="UnusedAttribute"
+				tools:targetApi="m" />
 
 
 			<RelativeLayout android:id="@+id/page_create_group_ek1"
@@ -63,7 +70,6 @@
 					android:layout_gravity="center_horizontal|center"
 					android:layout_marginLeft="75dp"
 					android:layout_marginTop="16dp"
-					android:fontFamily="Segoe UI"
 					android:gravity="center"
 					android:shadowColor="#000000"
 					android:shadowDx="0"
@@ -72,7 +78,8 @@
 					android:text="@string/group__creation_string"
 					android:textColor="#FFC107"
 					android:textSize="49sp"
-					android:textStyle="italic" />
+					android:textStyle="italic"
+					android:layout_marginStart="75dp" />
 
 
 				<RelativeLayout android:id="@+id/inputs_ek4"
@@ -88,7 +95,8 @@
 						android:layout_marginStart="0dp"
 						android:layout_width="wrap_content"
 						android:layout_height="wrap_content"
-						android:layout_marginLeft="0dp">
+						android:layout_marginLeft="0dp"
+						tools:ignore="UselessParent">
 
 
 						<RelativeLayout android:id="@+id/inputs_ek6"
@@ -115,23 +123,34 @@
 									android:layout_height="44dp" />
 
 
-								<RelativeLayout android:id="@+id/component_3___1"
-									android:layout_marginTop="16dp"
-									android:layout_marginStart="25dp"
+								<RelativeLayout
+									android:id="@+id/component_3___1"
 									android:layout_width="wrap_content"
 									android:layout_height="wrap_content"
-									android:layout_marginLeft="25dp">
+									android:layout_alignParentStart="true"
+									android:layout_alignParentLeft="true"
+									android:layout_alignParentTop="true"
+									android:layout_alignParentEnd="true"
+									android:layout_alignParentRight="true"
+									android:layout_marginStart="25dp"
+									android:layout_marginLeft="25dp"
+									android:layout_marginTop="16dp"
+									android:layout_marginEnd="182dp"
+									android:layout_marginRight="182dp">
 
 									<EditText
-										android:id="@+id/calgary_hiker_s_club"
-										android:layout_width="132dp"
-										android:layout_height="19dp"
+										android:id="@+id/groupname_et"
+										android:layout_width="wrap_content"
+										android:layout_height="wrap_content"
 										android:layout_marginLeft="0dp"
-										android:layout_marginTop="0dp"
-										android:fontFamily="Arial"
-										android:text="@string/calgary_hiker_s_club_string"
+										android:layout_marginTop="-10dp"
+										android:inputType="textPersonName"
+										android:text="@string/group_name_string"
 										android:textColor="@color/_09_09_1987_color"
-										android:textSize="14sp" />
+										android:textSize="14sp"
+										android:layout_marginStart="0dp"
+										android:importantForAutofill="no"
+										tools:ignore="LabelFor,TooDeepLayout" />
 
 								</RelativeLayout>
 
@@ -144,7 +163,6 @@
 				</RelativeLayout>
 
 				<TextView android:id="@+id/group_name"
-					android:fontFamily="Segoe UI"
 					android:layout_gravity="center_horizontal|center"
 					android:gravity="center"
 					android:textSize="22sp"
@@ -154,10 +172,9 @@
 					android:layout_width="125dp"
 					android:layout_height="32dp"
 					android:text="@string/group_name_string"
-					 />
+					android:layout_marginStart="46dp" />
 
 				<TextView android:id="@+id/group_description"
-					android:fontFamily="Segoe UI"
 					android:layout_gravity="center_horizontal|center"
 					android:gravity="center"
 					android:textSize="22sp"
@@ -167,7 +184,7 @@
 					android:layout_width="181dp"
 					android:layout_height="32dp"
 					android:text="@string/group_description_string"
-					 />
+					android:layout_marginStart="46dp" />
 
 				<View android:id="@+id/rectangle_1469"
 					android:background="@drawable/rectangle_1469_shape"
@@ -178,15 +195,18 @@
 					android:layout_height="128dp" />
 
 				<EditText
-					android:id="@+id/this_is_the_hiker_s_club_in_calgary_______"
-					android:layout_width="241dp"
-					android:layout_height="19dp"
+					android:id="@+id/gdesc_et"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
 					android:layout_marginLeft="45dp"
 					android:layout_marginTop="282dp"
-					android:fontFamily="Arial"
-					android:text="@string/this_is_the_hiker_s_club_in_calgary________string"
+					android:inputType="textShortMessage|textAutoCorrect"
+					android:text="@string/group_description_string"
 					android:textColor="@color/_09_09_1987_color"
-					android:textSize="14sp" />
+					android:textSize="14sp"
+					android:layout_marginStart="45dp"
+					android:importantForAutofill="no"
+					tools:ignore="LabelFor" />
 
 
 				<TextView
@@ -199,7 +219,6 @@
 					android:layout_marginStart="64dp"
 					android:layout_marginLeft="64dp"
 					android:layout_marginTop="418dp"
-					android:fontFamily="Segoe UI"
 					android:gravity="center"
 					android:text="@string/group_profile_picture_string"
 					android:textColor="@color/create_an_account_ek1_color"
@@ -208,17 +227,16 @@
 				<Button
 					android:id="@+id/upload_group_profile_picture"
 					android:layout_width="223dp"
-					android:layout_height="32dp"
+					android:layout_height="35dp"
 					android:layout_alignParentStart="true"
 					android:layout_alignParentLeft="true"
 					android:layout_alignParentEnd="true"
 					android:layout_alignParentRight="true"
 					android:layout_marginStart="70dp"
 					android:layout_marginLeft="70dp"
-					android:layout_marginTop="457dp"
+					android:layout_marginTop="440dp"
 					android:layout_marginEnd="67dp"
 					android:layout_marginRight="67dp"
-					android:fontFamily="Arial"
 					android:text="@string/upload_group_profile_picture_string"
 					android:textColor="@color/_09_09_1987_color"
 					android:textSize="12sp" />
@@ -237,14 +255,13 @@
 					android:layout_marginEnd="73dp"
 					android:layout_marginRight="73dp"
 					android:background="#FF9800"
-					android:fontFamily="Segoe UI"
 					android:gravity="center"
 					android:shadowColor="#000000"
 					android:shadowDx="0"
 					android:shadowDy="3"
 					android:shadowRadius="2"
 					android:text="@string/create_group_ek3_string"
-					android:textColor="@color/continue_ek1_color"
+					android:textColor="#45556B"
 					android:textSize="24sp" />
 
 				<RelativeLayout android:id="@+id/component_5___1"
@@ -252,7 +269,7 @@
 					android:layout_marginStart="0dp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
-					>
+					android:layout_marginLeft="0dp">
 
 					<View
 						android:id="@+id/rectangle_1470"
@@ -277,7 +294,8 @@
 							android:layout_marginStart="0dp"
 							android:layout_width="wrap_content"
 							android:layout_height="wrap_content"
-							android:layout_marginLeft="0dp">
+							android:layout_marginLeft="0dp"
+							tools:ignore="UselessParent">
 
 
 							<RelativeLayout android:id="@+id/bitmap_ek8"
@@ -285,39 +303,9 @@
 								android:layout_marginStart="0dp"
 								android:layout_width="wrap_content"
 								android:layout_height="wrap_content"
-								android:layout_marginLeft="0dp">
-
-								<ImageView android:id="@+id/bitmap_ek9"
-									android:src="@drawable/bitmap_ek9"
-									android:contentDescription="bitmap_ek9"
-									 android:layout_marginLeft="0dp"
-									 android:layout_marginStart="0dp"
-									android:layout_marginTop="0dp"
-									android:layout_width="48dp"
-									android:layout_height="48dp" />
-
-							</RelativeLayout>
+								android:layout_marginLeft="0dp"/>
 
 						</RelativeLayout>
-
-					</RelativeLayout>
-
-
-					<RelativeLayout android:id="@+id/bitmap_ek10"
-						android:layout_marginTop="12dp"
-						android:layout_marginStart="123dp"
-						android:layout_width="wrap_content"
-						android:layout_height="wrap_content"
-						android:layout_marginLeft="123dp">
-
-						<ImageView android:id="@+id/bitmap_ek11"
-							android:src="@drawable/bitmap_ek11"
-							android:contentDescription="bitmap_ek11"
-							 android:layout_marginLeft="0dp"
-							 android:layout_marginStart="0dp"
-							android:layout_marginTop="0dp"
-							android:layout_width="37dp"
-							android:layout_height="37dp" />
 
 					</RelativeLayout>
 
@@ -327,37 +315,8 @@
 						android:layout_marginStart="215dp"
 						android:layout_width="wrap_content"
 						android:layout_height="wrap_content"
-						android:layout_marginLeft="215dp">
+						android:layout_marginLeft="215dp"/>
 
-						<ImageView android:id="@+id/bitmap_copy_4_ek3"
-							android:src="@drawable/bitmap_copy_4_ek3"
-							android:contentDescription="bitmap_copy_4_ek3"
-							 android:layout_marginLeft="0dp"
-							 android:layout_marginStart="0dp"
-							android:layout_marginTop="0dp"
-							android:layout_width="51dp"
-							android:layout_height="51dp" />
-
-					</RelativeLayout>
-
-
-					<RelativeLayout android:id="@+id/bitmap_ek12"
-						android:layout_marginTop="12dp"
-						android:layout_marginStart="302dp"
-						android:layout_width="wrap_content"
-						android:layout_height="wrap_content"
-						android:layout_marginLeft="302dp">
-
-						<ImageView android:id="@+id/bitmap_ek13"
-							android:src="@drawable/bitmap_ek13"
-							android:contentDescription="bitmap_ek13"
-							 android:layout_marginLeft="0dp"
-							 android:layout_marginStart="0dp"
-							android:layout_marginTop="0dp"
-							android:layout_width="31.292724609375dp"
-							android:layout_height="35.21435546875dp" />
-
-					</RelativeLayout>
 
 				</RelativeLayout>
 
