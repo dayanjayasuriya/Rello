@@ -25,18 +25,13 @@
 			android:layout_width="wrap_content" 
 			android:layout_height="640dp" >
 
-
-
-
-
-
-
-			<RelativeLayout android:id="@+id/page_onboarding_4_ek1"
+			<RelativeLayout
 				android:layout_marginTop="0dp"
 				android:layout_marginStart="0dp"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
-				android:layout_marginLeft="0dp">
+				android:layout_marginLeft="0dp"
+				tools:ignore="UselessParent">
 
 
 				<View
@@ -62,11 +57,11 @@
 						android:layout_gravity="center_horizontal|center"
 						android:layout_marginLeft="71dp"
 						android:layout_marginTop="0dp"
-						android:fontFamily="Georgia"
 						android:gravity="center"
 						android:text="@string/calendar_string"
 						android:textColor="#FFC107"
-						android:textSize="40sp" />
+						android:textSize="40sp"
+						android:layout_marginStart="71dp" />
 
 					<TextView
 						android:id="@+id/keep_track_of_events_you_and_your_friends_are_going_to_"
@@ -75,11 +70,11 @@
 						android:layout_gravity="center_horizontal|center"
 						android:layout_marginLeft="0dp"
 						android:layout_marginTop="64dp"
-						android:fontFamily="Arial"
 						android:gravity="center"
 						android:text="@string/keep_track_of_events_you_and_your_friends_are_going_to__string"
 						android:textColor="#FFC107"
-						android:textSize="14sp" />
+						android:textSize="14sp"
+						android:layout_marginStart="0dp" />
 
 				</RelativeLayout>
 
@@ -91,11 +86,10 @@
 					android:layout_height="wrap_content"
 					android:layout_marginLeft="153dp">
 
-					<ImageView android:id="@+id/path_53"
-						android:src="@drawable/path_53"
-						android:contentDescription="path_53"
-						 android:layout_marginLeft="0dp"
-						 android:layout_marginStart="0dp"
+					<View android:id="@+id/ellipse_9_ek300"
+						android:background="@drawable/ellipse_9_ek3_shape"
+						android:layout_marginLeft="0dp"
+						android:layout_marginStart="0dp"
 						android:layout_marginTop="0dp"
 						android:layout_width="6dp"
 						android:layout_height="6dp" />
@@ -142,7 +136,7 @@
 						android:layout_marginLeft="0dp"
 						android:layout_marginTop="0dp"
 						android:background="#FFC107"
-						android:text="LET'S START" />
+						android:text="@string/let_s_start" />
 
 				</RelativeLayout>
 
@@ -160,7 +154,8 @@
 					android:layout_marginTop="77dp"
 					android:layout_marginEnd="100dp"
 					android:layout_marginRight="100dp"
-					app:srcCompat="@android:drawable/ic_menu_my_calendar" />
+					app:srcCompat="@android:drawable/ic_menu_my_calendar"
+					android:contentDescription="@string/calendar_logo" />
 
 			</RelativeLayout>
 

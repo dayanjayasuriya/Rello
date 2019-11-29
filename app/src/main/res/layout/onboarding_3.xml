@@ -36,7 +36,8 @@
 				android:layout_marginStart="0dp"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
-				android:layout_marginLeft="0dp">
+				android:layout_marginLeft="0dp"
+				tools:ignore="UselessParent">
 
 
 				<View
@@ -62,11 +63,11 @@
 						android:layout_gravity="center_horizontal|center"
 						android:layout_marginLeft="110dp"
 						android:layout_marginTop="0dp"
-						android:fontFamily="Georgia"
 						android:gravity="center"
 						android:text="@string/chat_string"
 						android:textColor="#FFC107"
-						android:textSize="40sp" />
+						android:textSize="40sp"
+						android:layout_marginStart="110dp" />
 
 					<TextView
 						android:id="@+id/chat_with_those_in_your_group_"
@@ -75,11 +76,11 @@
 						android:layout_gravity="center_horizontal|center"
 						android:layout_marginLeft="0dp"
 						android:layout_marginTop="64dp"
-						android:fontFamily="Arial"
 						android:gravity="center"
 						android:text="@string/chat_with_those_in_your_group__string"
 						android:textColor="#FFC107"
-						android:textSize="14sp" />
+						android:textSize="14sp"
+						android:layout_marginStart="0dp" />
 
 				</RelativeLayout>
 
@@ -91,11 +92,10 @@
 					android:layout_height="wrap_content"
 					android:layout_marginLeft="153dp">
 
-					<ImageView android:id="@+id/path_52"
-						android:src="@drawable/path_52"
-						android:contentDescription="path_52"
-						 android:layout_marginLeft="0dp"
-						 android:layout_marginStart="0dp"
+					<View android:id="@+id/ellipse_11_ek"
+						android:background="@drawable/ellipse_11_ek2_shape"
+						android:layout_marginLeft="0dp"
+						android:layout_marginStart="0dp"
 						android:layout_marginTop="0dp"
 						android:layout_width="6dp"
 						android:layout_height="6dp" />
@@ -140,7 +140,8 @@
 					android:layout_marginTop="75dp"
 					android:layout_marginEnd="102dp"
 					android:layout_marginRight="102dp"
-					app:srcCompat="@android:drawable/sym_action_chat" />
+					app:srcCompat="@android:drawable/sym_action_chat"
+					android:contentDescription="@string/chat_logo" />
 
 
 			</RelativeLayout>
